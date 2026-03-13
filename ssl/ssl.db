@@ -1,0 +1,88 @@
+--- 
+files: 
+  certificate: 
+    _wildcard__nagashreeschoolcrp_in_bf339_32581_1775056660_a15252738ef9b1dc8dc91886a48616d5: 
+      created: '1767284174'
+      domains: 
+        - "*.nagashreeschoolcrp.in"
+        - nagashreeschoolcrp.in
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “nagashreeschoolcrp.in”
+      id: _wildcard__nagashreeschoolcrp_in_bf339_32581_1775056660_a15252738ef9b1dc8dc91886a48616d5
+      is_self_signed: 0
+      issuer.commonName: R12
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: bf33996f1381643be8906aae4441436b2403dae9fde1041f79802539419493d162272c5ac17328fea3d97acd448f1ea29378cf098b9b011271b078e5be42c319cc99f0279168003fa9300718be5872b79fc5b1700d119fb70be53038f72aeff81992937a573229c2644a5a019338ddb08bcc62748a6525b57bf2031545decc50dd5bf63402dab782c6ad0a894ea92048d672d3db5b4683712a3c769095fe9c2ca3d29fc576145bb5224c36942169272a315cb0399aa3754e09f962a2aec9a65377c4ab1ecbc111810d781edd16219ea320f6b5e7d183554488be68e5dc8f8189e6b390c91c8b25cd174f551f0262e605d7f89a8f099f3a470658dc184fb32581
+      modulus_length: 2048
+      not_after: '1775056660'
+      not_before: '1767280661'
+      serial: 061211dcba4566bf4c8013432da38dd728cf
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: "*.nagashreeschoolcrp.in"
+      validation_type: dv
+    nagashreeschoolcrp_in_c8c75_bbdab_1780361443_ab92b7d33ea422e32cd700be5d2f010e: 
+      created: '1772588955'
+      domains: 
+        - "*.nagashreeschoolcrp.in"
+        - nagashreeschoolcrp.in
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “nagashreeschoolcrp.in” 1772588955.0
+      id: nagashreeschoolcrp_in_c8c75_bbdab_1780361443_ab92b7d33ea422e32cd700be5d2f010e
+      is_self_signed: 0
+      issuer.commonName: R12
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: c8c750412c17e504717139a301d1e48fa8cf19d548db3f16a7c00f88408ffc96510954903ee40bd27e7ced08e4da6706a84b6160ad108a9f08832b00351394e95f762f64f4d6ae507acef134de779fec0e08ff506ae970b3443fcd84ff414b45b19a555083b9c0da13bfc7988c9c52f71d3f33ffad3e804259e0393f9cfea0d67a312d05629c709a80b2f0a38434f10a18706fa49f415d5d2ab614e6468e00c3cb2dd4fd2ac07a149d30d1e997239c56ccba51582448543ede06bc12a5daaff821fe35ccbac9fe271052fb7d5c62bd4e332b6cce59105e08cc0b318fc8806e774c97786b59046f0e2c49b0f40348dd5d8d3ca1870392427fb9562ed7a41bbdab
+      modulus_length: 2048
+      not_after: '1780361443'
+      not_before: '1772585444'
+      serial: 056cd7a2cd725fba8d1315e09bf85df7c515
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: nagashreeschoolcrp.in
+      validation_type: dv
+  key: 
+    bf339_32581_2c4f7ae20eed4d9b64f5539252940073: 
+      created: '1767284174'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “nagashreeschoolcrp.in”
+      id: bf339_32581_2c4f7ae20eed4d9b64f5539252940073
+      key_algorithm: rsaEncryption
+      modulus: bf33996f1381643be8906aae4441436b2403dae9fde1041f79802539419493d162272c5ac17328fea3d97acd448f1ea29378cf098b9b011271b078e5be42c319cc99f0279168003fa9300718be5872b79fc5b1700d119fb70be53038f72aeff81992937a573229c2644a5a019338ddb08bcc62748a6525b57bf2031545decc50dd5bf63402dab782c6ad0a894ea92048d672d3db5b4683712a3c769095fe9c2ca3d29fc576145bb5224c36942169272a315cb0399aa3754e09f962a2aec9a65377c4ab1ecbc111810d781edd16219ea320f6b5e7d183554488be68e5dc8f8189e6b390c91c8b25cd174f551f0262e605d7f89a8f099f3a470658dc184fb32581
+      modulus_length: 2048
+    c8c75_bbdab_d1fb9e07119dae4b43f50909394677fc: 
+      created: '1772588955'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “nagashreeschoolcrp.in” 1772588955.0
+      id: c8c75_bbdab_d1fb9e07119dae4b43f50909394677fc
+      key_algorithm: rsaEncryption
+      modulus: c8c750412c17e504717139a301d1e48fa8cf19d548db3f16a7c00f88408ffc96510954903ee40bd27e7ced08e4da6706a84b6160ad108a9f08832b00351394e95f762f64f4d6ae507acef134de779fec0e08ff506ae970b3443fcd84ff414b45b19a555083b9c0da13bfc7988c9c52f71d3f33ffad3e804259e0393f9cfea0d67a312d05629c709a80b2f0a38434f10a18706fa49f415d5d2ab614e6468e00c3cb2dd4fd2ac07a149d30d1e997239c56ccba51582448543ede06bc12a5daaff821fe35ccbac9fe271052fb7d5c62bd4e332b6cce59105e08cc0b318fc8806e774c97786b59046f0e2c49b0f40348dd5d8d3ca1870392427fb9562ed7a41bbdab
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      bf33996f1381643be8906aae4441436b2403dae9fde1041f79802539419493d162272c5ac17328fea3d97acd448f1ea29378cf098b9b011271b078e5be42c319cc99f0279168003fa9300718be5872b79fc5b1700d119fb70be53038f72aeff81992937a573229c2644a5a019338ddb08bcc62748a6525b57bf2031545decc50dd5bf63402dab782c6ad0a894ea92048d672d3db5b4683712a3c769095fe9c2ca3d29fc576145bb5224c36942169272a315cb0399aa3754e09f962a2aec9a65377c4ab1ecbc111810d781edd16219ea320f6b5e7d183554488be68e5dc8f8189e6b390c91c8b25cd174f551f0262e605d7f89a8f099f3a470658dc184fb32581: 
+        _wildcard__nagashreeschoolcrp_in_bf339_32581_1775056660_a15252738ef9b1dc8dc91886a48616d5: ~
+      c8c750412c17e504717139a301d1e48fa8cf19d548db3f16a7c00f88408ffc96510954903ee40bd27e7ced08e4da6706a84b6160ad108a9f08832b00351394e95f762f64f4d6ae507acef134de779fec0e08ff506ae970b3443fcd84ff414b45b19a555083b9c0da13bfc7988c9c52f71d3f33ffad3e804259e0393f9cfea0d67a312d05629c709a80b2f0a38434f10a18706fa49f415d5d2ab614e6468e00c3cb2dd4fd2ac07a149d30d1e997239c56ccba51582448543ede06bc12a5daaff821fe35ccbac9fe271052fb7d5c62bd4e332b6cce59105e08cc0b318fc8806e774c97786b59046f0e2c49b0f40348dd5d8d3ca1870392427fb9562ed7a41bbdab: 
+        nagashreeschoolcrp_in_c8c75_bbdab_1780361443_ab92b7d33ea422e32cd700be5d2f010e: ~
+    subject.commonName: 
+      "*.nagashreeschoolcrp.in": 
+        _wildcard__nagashreeschoolcrp_in_bf339_32581_1775056660_a15252738ef9b1dc8dc91886a48616d5: ~
+      nagashreeschoolcrp.in: 
+        nagashreeschoolcrp_in_c8c75_bbdab_1780361443_ab92b7d33ea422e32cd700be5d2f010e: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “nagashreeschoolcrp.in”: _wildcard__nagashreeschoolcrp_in_bf339_32581_1775056660_a15252738ef9b1dc8dc91886a48616d5
+      Cert for “nagashreeschoolcrp.in” 1772588955.0: nagashreeschoolcrp_in_c8c75_bbdab_1780361443_ab92b7d33ea422e32cd700be5d2f010e
+  key: 
+    friendly_name: 
+      Key for “nagashreeschoolcrp.in”: bf339_32581_2c4f7ae20eed4d9b64f5539252940073
+      Key for “nagashreeschoolcrp.in” 1772588955.0: c8c75_bbdab_d1fb9e07119dae4b43f50909394677fc
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      bf33996f1381643be8906aae4441436b2403dae9fde1041f79802539419493d162272c5ac17328fea3d97acd448f1ea29378cf098b9b011271b078e5be42c319cc99f0279168003fa9300718be5872b79fc5b1700d119fb70be53038f72aeff81992937a573229c2644a5a019338ddb08bcc62748a6525b57bf2031545decc50dd5bf63402dab782c6ad0a894ea92048d672d3db5b4683712a3c769095fe9c2ca3d29fc576145bb5224c36942169272a315cb0399aa3754e09f962a2aec9a65377c4ab1ecbc111810d781edd16219ea320f6b5e7d183554488be68e5dc8f8189e6b390c91c8b25cd174f551f0262e605d7f89a8f099f3a470658dc184fb32581: bf339_32581_2c4f7ae20eed4d9b64f5539252940073
+      c8c750412c17e504717139a301d1e48fa8cf19d548db3f16a7c00f88408ffc96510954903ee40bd27e7ced08e4da6706a84b6160ad108a9f08832b00351394e95f762f64f4d6ae507acef134de779fec0e08ff506ae970b3443fcd84ff414b45b19a555083b9c0da13bfc7988c9c52f71d3f33ffad3e804259e0393f9cfea0d67a312d05629c709a80b2f0a38434f10a18706fa49f415d5d2ab614e6468e00c3cb2dd4fd2ac07a149d30d1e997239c56ccba51582448543ede06bc12a5daaff821fe35ccbac9fe271052fb7d5c62bd4e332b6cce59105e08cc0b318fc8806e774c97786b59046f0e2c49b0f40348dd5d8d3ca1870392427fb9562ed7a41bbdab: c8c75_bbdab_d1fb9e07119dae4b43f50909394677fc

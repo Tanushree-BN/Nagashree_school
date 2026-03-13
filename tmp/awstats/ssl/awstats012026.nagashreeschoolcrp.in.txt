@@ -1,0 +1,1147 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202601 will be lost/reset.
+# Last config file used to build this data file was /home3/nagashreeschl/tmp/awstats/ssl/awstats.nagashreeschoolcrp.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2099                
+POS_TIME 2772                
+POS_VISITOR 18240               
+POS_DAY 30573               
+POS_DOMAIN 3690                
+POS_LOGIN 4345                
+POS_ROBOT 4500                
+POS_WORMS 5111                
+POS_EMAILSENDER 5242                
+POS_EMAILRECEIVER 5385                
+POS_SESSION 31462               
+POS_FILESIZE 32151               
+POS_REQUESTTIME 32299               
+POS_SIDER 31663               
+POS_FILETYPES 5520                
+POS_DOWNLOADS 5801                
+POS_OS 5884                
+POS_BROWSER 6257                
+POS_SCREENSIZE 8090                
+POS_UNKNOWNREFERER 8164                
+POS_UNKNOWNREFERERBROWSER 9212                
+POS_ORIGIN 9578                
+POS_SEREFERRALS 9723                
+POS_PAGEREFS 9954                
+POS_SEARCHWORDS 10351               
+POS_KEYWORDS 10536               
+POS_MISC 2436                
+POS_ERRORS 10630               
+POS_CLUSTER 4201                
+POS_SIDER_404 10811               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260201001605 3 486 7134982829561
+FirstTime 20260101215141
+LastTime 20260131173945
+LastUpdate 20260201192224 3 0 2 0 0
+TotalVisits 274                 
+TotalUnique 228                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 346                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+AddToFavourites 0 8 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 39 295 671892167 219 277 181345
+1 22 138 288052709 17 40 103689
+2 9 38 13985266 5 8 1332121
+3 11 28 744646 251 319 1489761
+4 13 18 204685 14 82 184179
+5 9 9 129098 9 120 2188676
+6 3 3 43950 9 37 311554
+7 21 122 215983840 44 139 5829367
+8 42 301 438577379 20 110 13991847
+9 25 236 451783110 17 77 8979185
+10 22 146 293015980 12 49 5940111
+11 35 264 562796022 13 58 7372028
+12 11 48 107692420 20 71 12043657
+13 13 87 144964684 12 64 23256686
+14 41 242 611643450 12 56 28817514
+15 20 55 161574856 20 62 36496970
+16 31 160 378214738 18 71 17980709
+17 20 120 419958309 36 250 195408018
+18 8 43 75727747 25 161 187290803
+19 49 385 861144739 26 225 31441723
+20 30 197 454510055 25 179 182780589
+21 13 81 148698928 150 242 2319405
+22 27 95 387799522 23 89 8717831
+23 18 115 235552660 13 37 916382
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 30
+us 286 1807 2462277912
+in 138 1070 1824280182
+se 27 27 328428
+ru 26 94 185993951
+ie 13 115 154027992
+pl 8 8 97312
+ca 6 7 1393558
+ro 5 5 50754
+bg 4 4 48656
+hk 4 4 48656
+gb 4 42 66601154
+br 2 7 368716
+gr 1 1 12164
+id 1 2 20244
+kr 1 1 12164
+vn 1 7 493529
+ar 1 3 1469157
+jp 1 6 396156
+be 1 1 12164
+al 1 1 12164
+tr 1 2 12911
+za 0 3 270800
+au 0 1 637239
+mx 0 1 908007
+it 0 2 1675420
+pk 0 1 23349
+nl 0 1 725243
+sa 0 1 2196
+dz 0 1 15509
+de 0 1 140188
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 516 5838733 20260130234433 0
+Mediapartners-Google 364 498140629 20260109201806 0
+facebookexternalhit/ 142 60212243 20260130112202 0
+Googlebot\-Image/ 108 203932946 20260125184908 0
+bingbot/ 99 2913114 20260130125618 0
+crawl 23 2188681 20260129093329 0
+bot[\s_+:,\.\;\/\\-] 17 206788 20260131081947 0
+no_user_agent 3 131850 20260130004438 0
+Konqueror/ 1 12164 20260115223915 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 12164 20260109213223 0
+Applebot/ 1 12033 20260119161010 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+png 78 20377110 0 0
+svg 5 184705 0 0
+html 323 4744431 0 0
+jpg 902 2306589874 0 0
+css 691 9055128 0 0
+woff 85 1029700 0 0
+mp4 3 410746420 0 0
+ttf 62 19044416 0 0
+js 1015 16898333 0 0
+php 1 52 0 0
+woff2 61 3086112 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/images/vedio.mp4 3 157 2321346014
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+winunknown 1 1
+androidnougat 1 1
+win8.1 1 1
+macosx9 1 1
+androidlollipop 1 1
+macosx15 228 37
+win7 24 9
+android 472 51
+android11 4 1
+unix 2 2
+Unknown 107 67
+bsdfreebsd 1 1
+androidoreo 2 1
+android10 829 103
+win10 1243 179
+android12 35 4
+ios_iphone 248 32
+linuxubuntu 2 2
+win2003 1 1
+linux 172 36
+android13 8 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 86
+chrome101.0.4951.41 1 1
+chrome84.0.4147.105 4 4
+chrome143.0.7499.192 10 0
+firefox112.0 2 2
+chrome96.0.4664.93 81 8
+chrome138.0.0.0 81 14
+chrome143.0.7499.147 12 0
+chrome99.0.7113.93 120 12
+chrome144.0.0.0 342 34
+chrome115.0.0.0 41 6
+android 47 5
+chrome95.0.4638.54 40 4
+mozilla 12 12
+firefox121.0 1 1
+chrome91.0.4472.124 64 12
+firefox139.0 2 2
+chrome76.0.3809.111 2 2
+chrome104.0.5112.81 2 0
+safari18.7.3 45 4
+chrome116.0.0.0 37 11
+chrome68.0.3440.75 2 0
+chrome15.0.874.120 1 1
+chrome110.0.0.0 11 1
+Unknown 36 30
+firefox136.0 1 1
+chrome124.0.0.0 3 0
+firefox59.0 40 4
+chrome134.0.0.0 18 6
+chrome117.0.0.0 5 1
+chrome98.0.4758.87 1 1
+chrome119.0.0.0 2 2
+safari26.2 109 10
+chrome112.0.5615.136 1 1
+chrome143.0.7499.34 32 5
+chrome143.0.7499.193 1 0
+chrome111.0.0.0 17 0
+chrome109.0.0.0 2 0
+chrome142.0.7444.91 41 5
+chrome57.0.2987.133 1 1
+samsung 163 20
+chrome107.0.0.0 4 0
+firefox142.0 1 1
+chrome99.0.4844.51 2 2
+chrome142.0.0.0 48 12
+chrome140.0.0.0 19 1
+chrome143.0.7499.146 6 0
+safari17.1.2 3 3
+safari5.0.1 1 1
+chrome144.0.7559.63 42 5
+chrome120.0.4024.84 1 1
+itunes 1 1
+firefox123 3 3
+firefox115 1 1
+safari 86 10
+chrome96.0.4664.45 113 9
+chrome133.0.0.0 3 0
+chrome141.0.0.0 3 1
+firefox83.0 2 2
+chrome96.0.4664.55 80 8
+opera80.4.4244.7786 2 2
+firefox47.0 24 9
+chrome121.0.0.0 4 4
+firefox54.0 1 1
+chrome103.0.0.0 2 0
+chrome81.0.4044.129 31 3
+chrome143.0.7499.186 43 5
+chrome100.0.4896.75 82 10
+chrome105.0.0.0 2 2
+chrome136.0.0.0 1 0
+netscape5.0 3 3
+safari17.3.1 6 6
+chrome84.0.4147.89 1 1
+chrome132.0.0.0 41 6
+chrome137.0.0.0 37 2
+firefox124.0 1 1
+chrome114.0.0.0 33 2
+chrome143.0.7499.114 27 1
+chrome120.0.0.0 12 7
+edge12 1 1
+chrome78.0.3904.108 94 7
+chrome122.0.0.0 1 1
+chrome126.0.0.0 7 3
+chrome143.0.0.0 986 125
+chrome139.0.0.0 72 34
+chrome131.0.0.0 13 8
+chrome60.0.3112.113 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+\ 20260117011444
+Python/3.9_aiohttp/3.13.3 20260113033946
+FaviconHash-API/1.0 20260130232352
+[FBAN/FB4A;FBAV/543.0.0.55.73;FBBV/846638231;FBDM/{density=2.8125,width=1080,height=2408};FBLC/en_US;FBRV/0;FBCR/JIO_4G;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-M146B;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20260103071916
+python-httpx/0.22.0 20260109211808
+Mozilla/5.0_(compatible;_Dataprovider.com) 20260104030948
+Mozilla/5.0_AppleWebKit/605.1.15_(KHTML,_like_Gecko)_Chrome/139.0.0.0_Safari/605.1.15 20260112000610
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20260128211519
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20260101215435
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260130045922
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20260119112818
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+FaviconHash-API/1.0 20260130232352
+Python/3.9_aiohttp/3.13.3 20260113033946
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260130045922
+\ 20260117011444
+python-httpx/0.22.0 20260109211808
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 232 491
+From1 1 1
+From2 67 276
+From3 40 256
+From4 192 2359
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+infospace 4 41
+www_google_co_in 1 1
+dogpile 13 153
+google_com 0 3
+www_google_com 49 78
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://www.activesearchresults.com 8 80
+https://l.instagram.com 6 6
+http://m.facebook.com 5 5
+http://oskope.com 4 40
+http://omgili.com 4 40
+http://www.panjoy.com 4 40
+https://www.facebook.com 4 4
+http://www.youdao.com 4 40
+http://127.0.0.1:5500 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+https+//nagashreeschoolcrp.in/ 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+//nagashreeschoolcrp.in/ 1
+https 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+206 6 1263721
+404 958 403344
+406 418 94016
+409 80 6640
+421 13 4186
+401 2 104
+400 2 104
+301 2 482
+503 4 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 316
+/aws.secret 1 -
+/terraform/aws.tf 1 -
+/.env.development 2 -
+/configs/s3_config.json 1 -
+/api/actions 2 -
+/app/config.yml 1 -
+/.env.dev 1 -
+/app/logs/prod.log 1 -
+/setup.py 1 -
+/sitemap_index.xml 4 -
+/webhooks/settings.json 1 -
+/project/settings/payment.py 1 -
+/user/config/config.js 1 -
+/s3.yml 1 -
+/helper.js 1 -
+/app/config/stripe.yml 1 -
+/sonar-project.properties 1 -
+/.env.production 2 -
+/404.html 1 -
+/aws-secret.yaml 1 -
+/config/stripe.yml 1 -
+/service/email_service.py 1 -
+/swagger.js 1 -
+/aws.key 1 -
+/.DS_Store 1 -
+/static/js/main.141b0494.js 1 -
+/config/settings.json 1 -
+/_profiler/phpinfo 3 -
+/config/settings/stripe.py 1 -
+/storage/secrets/stripe.json 1 -
+/api/swagger.json 1 -
+/s3.js 1 -
+/security.txt 1 -
+/config/payment.yml 1 -
+/jquery.min.js 11 -
+/storage/s3.json 1 -
+/cloud/Scraper.js 1 -
+/terraform/terraform.tfstate 1 -
+/config/credentials.yml.enc 1 -
+/config.js 3 -
+/functions/stripe.js 1 -
+/sapi/debug/default/view 1 -
+/wp-json/wc/v3 1 -
+/backend/config/settings.yml 1 -
+/popper.min.js 10 -
+/routes/payment.js 1 -
+/.env.production.local 1 -
+/credentials.txt 1 -
+/symfony/public/_profiler/open 1 -
+/config/parameters.yml 1 -
+/new/.env.staging 1 -
+/music.js 1 -
+/.env.stripe 1 -
+/stripe.ini 1 -
+/application.properties 1 -
+/.env.staging 2 -
+/symfony/public/_profiler/phpinfo 1 -
+/.AWS_/credentials 1 -
+/.git/HEAD 1 -
+/api/config/config.yml 1 -
+/llms.txt 1 -
+/config/secrets.env 1 -
+/var/log/apache2/error.log 1 -
+/build.gradle 1 -
+/backend/stripe.js 1 -
+/mytest/astech_robot.js 1 -
+/new/.env.local 1 -
+/api/config 1 -
+/stripe.save 1 -
+/app.py 1 -
+/controller/admin/post.js 1 -
+/jquery.magnific-popup.min.js 11 -
+/server/config/database.js 1 -
+/api/stripe.js 1 -
+/core/payment.py 1 -
+/aws.yaml 1 -
+/.env.test 1 -
+/aos.js 11 -
+/wp-json/ 1 -
+/stripe.txt 1 -
+/aws.json 2 -
+/storage/app/stripe.json 1 -
+/stripe_keys.json 1 -
+/owl.carousel.min.js 11 -
+/serverless.yml 1 -
+/.aws/credentials 5 -
+/storage/stripe.json 1 -
+/.bitbucket/pipelines.yml 1 -
+/.github/workflows/deploy.yml 1 -
+/backend/config/default.yml 1 -
+/.well-known/traffic-advice 22 -
+/node/.env_example 1 -
+/config/settings.local 1 -
+/scripts/nodemailer.js 1 -
+/google-map.js 11 -
+/partner/config/config.js 1 -
+/js/popper.js 2 -
+/.env.local 2 -
+/server/s3.js 1 -
+/swagger.json 2 -
+/apis/controllers/users.js 1 -
+/secrets.yml 2 -
+/.env.dev.local 1 -
+/my_env/chakaash.py 1 -
+/config/env/production/database.js 1 -
+/stripe.log 1 -
+/wp-admin/ 2 https://www.google.com/search
+/server/stripe.js 1 -
+/static/js/main.e85f7a37.js 1 -
+/.gitlab-ci/stripe.env 1 -
+/web/debug/default/view 1 -
+/.github/workflows/ 1 -
+/config/initializers/stripe.rb 1 -
+/Gemfile 1 -
+/backend/config/development.yml 1 -
+/k8s-config.yml 1 -
+/helpers/s3.js 1 -
+/settings_stripe.py 1 -
+/.circleci/stripe.env 1 -
+/app.js 1 -
+/jquery.easing.1.3.js 11 -
+/index.js 2 -
+/user/controllers/index.js 1 -
+/.docker/config.json 1 -
+/nag-logo.png 90 https://nagashreeschoolcrp.in/
+/log/error.log 1 -
+/debug/default/view 3 -
+/shared/config/config.js 1 -
+/new/.env.production 1 -
+/app/etc/local.xml 1 -
+/backup.tar.gz 1 -
+/modules/stripe.js 1 -
+/aws/credentials 1 -
+/logs/error.log 1 -
+/package.json 1 -
+/instance/config.py 1 -
+/.github/secrets/stripe.env 1 -
+/wp-config 1 -
+/sitemaps.xml 2 -
+/YK_KZ_Base.js 1 -
+/.aws/config 2 -
+/.circleci/config.yml 1 -
+/appsettings.json 1 -
+/helper/EmailHelper.js 1 -
+/jquery.waypoints.min.js 10 -
+/config/s3_config.json 1 -
+/sitemap.xml.gz 5 -
+/controllers/stripeController.js 1 -
+/app/logs/dev.log 1 -
+/apis/config/config.js 1 -
+/apikeys.json 1 -
+/var/www/html/error_log 1 -
+/symfony/public 1 -
+/api/webhook.js 1 -
+/.github/workflows/stripe.yml 1 -
+/server.js 1 -
+/api_keys.json 1 -
+/debug/default/open 1 -
+/gcp-credentials.json 1 -
+/config/constants.js 1 -
+/.travis.yml 1 -
+/static/js/2.ca066a4b.chunk.js 1 -
+/stripe.conf 1 -
+/.circleci/configs/development.yml 1 -
+/sendgrid.env 2 -
+/.env.prod 1 -
+/scrollax.min.js 11 -
+/config/aws.yml 2 -
+/api/v2/config 1 -
+/api/config.js 1 -
+/config/application.yml 1 -
+/SonarQube.properties 1 -
+/.env.example 1 -
+/gatsby-config.js 1 -
+/pom.xml 1 -
+/ads.txt 3 -
+/cloudformation.yml 1 -
+/routes/stripe.js 1 -
+/_debug 1 -
+/config/stripe.yaml 1 -
+/storage/app/keys/stripe.key 1 -
+/requirements.txt 1 -
+/stripe_config.json 1 -
+/debug/default/view.html 1 -
+/helpers/utility.js 1 -
+/storage/logs/payments.log 1 -
+/images/video-thumbnail.jpg 71 https://nagashreeschoolcrp.in/
+/aws.yml 2 -
+/.git/config 11 -
+/settings/stripe.py 1 -
+/controllers/settings.js 1 -
+/jquery.stellar.min.js 10 -
+/keys.json 1 -
+/.env.1 1 -
+/.s3cfg 1 -
+/app/config/parameters.yml 2 -
+/.env.remote 1 -
+/storage/logs/laravel.log 2 -
+/auth.json 1 -
+/info 1 -
+/sitemap.txt 6 -
+/.terraform/terraform.tfstate 1 -
+/admin/ 1 -
+/.well-known/security.txt 2 -
+/.env.aws 1 -
+/debug.log 1 -
+/backup.zip 1 -
+/terraform/ 1 -
+/secrets.json 2 -
+/api/shared/config/config.env 1 -
+/_profiler/open 1 -
+/config/stripe.json 1 -
+/.env_sample 1 -
+/aws-config.json 1 -
+/apps 2 -
+/.gitconfig 1 -
+/Dockerfile 2 -
+/docker-compose.yaml 1 -
+/configs/routes.js 1 -
+/main.yml 1 -
+/images/bg1.jpg 68 https://nagashreeschoolcrp.in/
+/.secrets 1 -
+/.gcloud/credentials 1 -
+/storage/keys/stripe.json 1 -
+/robots.txt 192 -
+/.terraform/stripe.tfstate 1 -
+/configs/routes-4aug.js 1 -
+/admin/config 1 -
+/stripe.key 1 -
+/.azure/credentials 1 -
+/utils/stripe.js 1 -
+/php_error.log 1 -
+/oauth.json 1 -
+/.env.save 1 -
+/frontend/web/debug/default/view 1 -
+/azure.json 1 -
+/.terraform/ 1 -
+/admin/controllers/merchant.js 1 -
+/credentials.json 2 -
+/api/config.env 1 -
+/.env.prod.local 1 -
+/main.js 12 -
+/routes/webhook.js 1 -
+/error.log 1 -
+/internal/stripe/keys.go 1 -
+/config/settings.prod 1 -
+/docker-compose.yml 2 -
+/jquery-migrate-3.0.1.min.js 9 -
+/config.json 2 -
+/var/log/nginx/error.log 1 -
+/_next/data 2 -
+/cloudformation.json 1 -
+/.env.stage 1 -
+/.api_keys 1 -
+/errors.log 1 -
+/api/stripe.ts 1 -
+/.github/workflows/build.yml 1 -
+/stripe.env 1 -
+/phpinfo 3 -
+/.env.2 1 -
+/logs/application.log 1 -
+/.github/stripe.env 1 -
+/kubernetes.yml 1 -
+/config/stripe.ts 1 -
+/public/js/main.js 1 -
+/tox.ini 1 -
+/config/config.json 1 -
+/config/secrets.yml 1 -
+/my_env/newsletter.py 1 -
+/site-backup.zip 1 -
+/api/v1/config 1 -
+/jquery.animateNumber.min.js 11 -
+/composer.json 1 -
+/.gitlab-ci.yml 1 -
+/my_env/palash.py 1 -
+/config/aws.json 1 -
+/controller/api/post.js 1 -
+/docker-compose.override.yml 1 -
+/.dockerenv 1 -
+/storage/logs/stripe.log 1 -
+/settings.py 1 -
+/stripe_secret.json 1 -
+/others.html 1 -
+/gradle.properties 1 -
+/config.zip 1 -
+/stripe/index.js 1 -
+/sms.py 1 -
+/enhancecp 1 -
+/secrets/stripe.json 1 -
+/app/settings_stripe.py 1 -
+/config/credentials.yml 1 -
+/karma.conf.json 1 -
+/Makefile 1 -
+/tokens.json 1 -
+/backup/stripe.json 1 -
+/Thumbs.db 1 -
+/bootstrap.min.js 9 -
+/.dockerignore 2 -
+/config/local.yml 1 -
+/.env.deploy 1 -
+/storage/stripe.keys 1 -
+/functions/payment.js 1 -
+/secrets.yaml 1 -
+/functions/webhook.js 1 -
+/admin/.env 2 -
+/api/shared/config.env 1 -
+/config/stripe.js 1 -
+/admin/controllers/partner.js 1 -
+/api/action 2 -
+/settings.gradle 1 -
+/sitemap.xml 6 -
+/config/storage.yml 1 -
+/config.env 1 -
+/.gitlab/stripe.env 1 -
+/terraform/stripe.tf 1 -
+/.env.sample 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 346
+103.108.58.16 25 25 304100 20260130232352
+223.237.160.39 11 85 151665977 20260109165234
+122.168.68.212 11 85 190358305 20260101223421
+195.178.110.192 10 62 183902924 20260130004443
+195.178.110.109 9 24 833472 20260125030432
+54.226.249.67 9 113 133437892 20260109003407
+98.90.205.183 8 81 125487805 20260127111349
+54.160.164.137 8 80 125481538 20260113145159
+3.87.19.174 8 80 125481538 20260120010308
+3.91.48.7 8 80 124732274 20260109003349
+117.251.174.68 8 96 125025357 20260102105411
+27.61.38.220 6 96 148399460 20260123082118
+74.125.212.167 6 15 769419 20260123082122
+152.57.137.91 6 87 157899949 20260107170637
+204.76.203.25 6 18 645336 20260130015106
+115.99.95.108 6 69 105459819 20260117234502
+1.39.138.111 5 42 95165532 20260130150656
+152.57.14.124 5 50 133801733 20260120202208
+157.50.172.171 5 31 25892372 20260103142723
+106.206.86.221 5 41 63482568 20260120204054
+209.170.91.201 5 41 62381121 20260102163657
+49.207.152.233 5 40 62211014 20260118104050
+49.37.171.235 5 43 62421489 20260131143410
+209.170.91.202 5 41 62381121 20260104014454
+157.35.5.172 5 41 62381121 20260109105144
+213.173.108.224 0 2 1675420 
+3.86.95.118 1 1 12164 20260103211515
+34.45.218.41 1 1 43950 20260120132415
+167.99.2.143 0 2 2839471 
+167.94.138.200 1 1 12164 20260119204505
+178.156.161.157 4 4 38590 20260113123517
+152.57.118.165 0 6 36982295 
+146.190.93.146 0 1 734716 
+198.199.87.132 0 1 725243 
+143.110.219.187 1 1 12177 20260127133627
+185.209.196.201 1 1 12164 20260103040945
+192.71.142.35 1 1 12164 20260129222956
+103.149.146.220 0 1 3479 
+162.120.185.12 1 1 12164 20260122222025
+144.217.135.246 1 1 43950 20260104030932
+54.186.198.40 0 1 692963 
+162.120.185.11 1 1 12164 20260119152724
+74.125.215.34 3 10 672129 20260123082300
+162.120.184.29 1 1 12164 20260123081704
+106.192.51.119 1 1 12164 20260129182035
+162.120.184.200 2 2 24328 20260115171832
+152.57.3.200 0 35 61806619 
+157.230.113.249 1 1 43950 20260104152126
+206.189.50.147 1 1 43950 20260102172437
+34.206.66.139 1 1 0 20260110175936
+173.252.127.21 1 11 24875893 20260109191050
+52.22.61.42 1 1 0 20260111030851
+44.254.127.48 0 1 1271554 
+162.120.184.8 2 2 19696 20260128121414
+195.178.110.54 1 1 12164 20260102191037
+151.115.90.250 4 39 62180803 20260103004956
+79.106.127.200 1 1 12164 20260122080957
+34.220.185.76 0 1 1714762 
+162.120.184.10 3 3 36492 20260126072656
+34.222.114.131 0 1 1496508 
+162.120.185.2 1 1 7532 20260103143136
+173.252.70.8 0 2 33173750 
+87.236.176.83 1 1 12164 20260107152542
+162.120.184.12 1 1 12164 20260113114814
+3.219.52.86 1 1 0 20260111222048
+192.36.166.94 1 1 12164 20260111110352
+54.167.155.101 1 1 0 20260111161911
+18.215.240.164 1 1 12164 20260112223212
+98.88.74.11 1 1 12164 20260127205558
+139.59.253.213 0 1 637239 
+171.48.102.65 0 32 39393598 
+173.252.127.24 4 40 62366137 20260123082621
+196.250.210.69 0 1 6766 
+137.184.220.76 0 1 3982355 
+161.35.0.250 0 2 20403512 
+31.13.115.10 2 12 24880153 20260118202650
+52.36.162.176 0 2 2151752 
+152.57.119.40 1 27 4009292 20260117094843
+152.57.128.28 1 19 14695340 20260125160916
+54.158.176.240 1 1 0 20260111001404
+162.120.184.14 1 1 7532 20260123082254
+102.141.42.179 0 1 8080 
+45.148.10.250 2 2 24328 20260107050959
+35.180.164.4 2 2 24328 20260106125451
+54.213.212.13 0 1 140188 
+128.199.238.0 0 1 1281401 
+34.200.116.27 1 1 0 20260111171240
+167.99.69.130 0 1 100723 
+142.93.55.192 0 1 1225216 
+165.22.216.110 1 1 12184 20260109222254
+157.51.62.21 0 1 13989 
+41.193.127.24 0 1 261245 
+192.71.38.71 1 1 12164 20260116043624
+177.125.147.14 0 1 2191 
+173.252.127.13 4 28 4331478 20260109191049
+123.27.186.19 1 1 307168 20260107200446
+35.89.182.59 0 1 261245 
+104.164.173.28 1 1 12164 20260101223819
+93.158.91.250 1 1 12164 20260104215630
+34.223.88.128 1 7 49146 20260109211807
+34.234.98.53 1 1 0 20260111094830
+162.120.184.3 1 1 12164 20260129194036
+34.171.226.229 1 1 43950 20260119111056
+44.254.252.98 1 1 10090 20260113142851
+78.174.204.14 0 1 747 
+23.80.164.6 4 9 63423 20260122045533
+198.235.24.49 1 1 43950 20260120170148
+18.233.176.29 1 1 0 20260111102518
+43.173.182.130 0 1 3479 
+93.158.91.25 1 1 12164 20260111150105
+72.14.201.185 1 1 12164 20260116161645
+206.189.183.141 0 1 1546224 
+159.89.186.100 1 1 12164 20260102225508
+49.205.147.231 0 1 10755151 
+187.222.152.10 0 1 908007 
+93.158.90.68 1 1 12164 20260113075337
+162.120.185.52 2 2 24328 20260129195258
+59.27.157.228 1 1 12164 20260128193026
+223.186.60.68 0 1 261245 
+45.139.104.171 1 1 12164 20260103002347
+31.13.127.29 0 2 33173750 
+159.65.216.79 0 1 854236 
+157.50.171.209 5 67 136777869 20260129195252
+134.209.127.79 1 1 12182 20260123133359
+31.13.127.116 4 41 62454484 20260130112130
+152.57.53.184 0 1 261245 
+190.189.211.63 0 1 1459907 
+193.186.4.184 1 1 12164 20260113114542
+106.216.178.29 0 4 4631529 
+161.115.234.27 1 1 12164 20260131165035
+35.247.16.125 2 33 6469990 20260102095217
+206.1.221.247 1 1 12164 20260122080948
+34.233.223.156 1 1 0 20260111062135
+146.190.93.125 0 1 1459907 
+162.120.184.52 2 2 24328 20260116110527
+146.190.220.26 0 2 3027490 
+37.46.113.132 1 1 12164 20260103234044
+165.16.188.240 0 1 261245 
+18.236.158.125 0 1 1260962 
+199.45.154.153 1 1 12164 20260127044157
+107.208.149.255 0 1 3151 
+184.98.212.101 1 1 12164 20260119122310
+93.158.90.33 1 1 12164 20260128052123
+192.71.142.146 1 1 12164 20260108160613
+193.186.4.185 2 2 24328 20260123082252
+16.146.45.190 1 1 7532 20260113143351
+159.89.185.54 1 1 12164 20260120073405
+44.215.179.108 1 1 0 20260111095004
+223.186.250.40 0 1 812136 
+34.195.137.67 1 1 0 20260110233331
+93.158.90.37 1 1 12164 20260122124347
+104.164.126.110 1 1 12164 20260101223829
+186.250.253.174 0 1 2031 
+93.158.90.66 1 1 12164 20260107194226
+191.243.165.198 0 1 4109 
+192.71.224.103 2 2 24328 20260131094503
+149.56.160.205 2 2 12164 20260104030948
+34.221.21.250 1 1 12164 20260103232727
+134.122.51.85 1 1 12174 20260113104345
+193.23.253.229 0 1 140188 
+93.158.91.35 2 2 24328 20260128232946
+74.125.212.166 2 15 170305 20260123082122
+159.89.226.93 1 1 12164 20260106015719
+157.32.130.95 0 1 637239 
+43.228.125.75 4 4 48656 20260130225145
+54.197.181.212 1 1 0 20260111010054
+54.146.134.152 1 1 0 20260111062248
+152.57.137.194 5 41 62381121 20260116203454
+34.202.219.188 1 1 0 20260111153756
+172.58.243.97 4 36 24414843 20260127074533
+188.54.117.41 0 1 2196 
+128.199.86.227 0 1 1496508 
+15.204.182.106 2 2 24328 20260102103735
+18.246.247.100 0 1 725243 
+106.192.36.14 3 39 62353973 20260110113001
+223.231.147.255 5 45 109416941 20260130142020
+185.247.137.79 1 1 12164 20260119112818
+162.142.125.216 1 1 12164 20260128211519
+223.231.135.101 0 2 522490 
+195.201.194.48 1 1 12164 20260113033946
+143.110.255.76 1 1 12164 20260106054848
+159.223.155.231 0 1 908007 
+157.245.88.78 0 2 2624909 
+167.71.150.79 3 31 1065736 20260129021755
+223.237.163.39 0 1 1496508 
+15.204.183.221 2 2 15064 20260103010212
+205.210.31.253 1 1 43950 20260130045922
+116.90.105.113 0 1 23349 
+35.156.49.235 1 1 12164 20260124184502
+159.65.15.207 1 1 12164 20260105173559
+14.247.213.91 0 1 7310 
+74.125.215.33 1 18 172606 20260123082259
+103.4.250.64 1 1 12164 20260101224321
+43.229.9.121 1 1 10090 20260113142853
+54.201.57.178 0 1 998656 
+113.183.45.167 0 1 104293 
+3.83.220.2 1 1 12164 20260130213453
+43.163.22.159 1 1 12033 20260108133551
+3.18.186.238 1 1 12164 20260122151950
+193.138.218.216 1 1 12164 20260105075859
+93.159.230.28 1 1 12164 20260126152514
+35.92.24.43 0 1 812136 
+94.247.172.129 1 1 12164 20260114054534
+15.204.161.7 2 2 20180 20260103010038
+185.242.244.188 0 1 1152785 
+106.196.24.57 5 71 136963014 20260126091244
+23.20.240.143 1 1 0 20260110180536
+54.211.98.27 0 7 6162915 
+54.202.127.124 0 1 685645 
+54.218.158.51 0 1 1357307 
+173.252.70.23 1 1 12164 20260126080757
+173.252.70.3 4 38 29192387 20260114194101
+184.72.144.94 0 7 6162915 
+172.225.218.36 0 1 2 
+75.101.240.69 1 1 0 20260110181936
+44.245.5.66 0 2 2771440 
+152.57.79.100 5 42 95034532 20260113222349
+192.121.135.97 1 1 12164 20260119100259
+3.218.1.100 1 1 0 20260112000610
+162.120.184.7 2 2 19696 20260123081706
+45.139.104.168 1 1 12164 20260109194133
+128.199.240.160 0 1 812136 
+137.184.152.251 0 2 2220591 
+88.236.186.230 1 1 12164 20260124034739
+104.164.173.177 1 1 12164 20260102110235
+13.230.230.220 2 2 24328 20260103164413
+187.102.28.191 1 1 307244 20260107200458
+147.182.213.31 0 1 261245 
+192.71.142.134 1 1 12164 20260126130343
+14.191.75.125 0 1 55584 
+31.13.115.116 3 27 4327218 20260118202649
+93.158.90.12 1 1 12164 20260117054909
+44.244.91.236 0 1 1312728 
+192.71.10.105 1 1 12164 20260120103030
+44.236.207.248 5 41 62381121 20260112145451
+54.227.244.65 1 1 0 20260110223214
+103.4.250.120 2 2 24328 20260102110244
+171.76.218.56 0 2 1073381 
+43.173.177.28 0 1 1117 
+159.223.161.171 0 1 908007 
+167.172.159.41 0 1 830306 
+66.220.149.24 5 39 29207371 20260109191440
+149.57.85.28 1 1 8804 20260114163954
+199.45.154.147 1 1 12164 20260104010415
+167.71.26.159 0 2 1720072 
+103.4.251.148 2 2 24328 20260101224332
+193.186.4.137 1 1 12164 20260116160923
+193.186.4.189 1 1 12164 20260128180534
+35.87.153.219 0 1 734716 
+185.177.72.16 1 1 0 20260112030130
+193.186.4.186 1 1 12164 20260119153417
+193.186.4.191 1 1 12164 20260117172919
+178.128.202.148 1 1 12164 20260106181213
+43.173.177.229 0 1 104293 
+106.221.202.16 5 47 103780183 20260124193821
+161.35.2.72 1 1 12164 20260124184826
+52.90.63.124 1 1 12164 20260124220811
+43.173.178.77 0 1 13989 
+117.251.178.160 5 66 103993458 20260107132712
+185.177.72.70 1 1 43950 20260114051715
+109.166.44.79 1 1 12164 20260117011444
+192.71.44.44 1 1 12164 20260105191329
+68.183.80.237 1 1 12164 20260104000353
+74.125.215.32 2 12 227223 20260123082300
+157.50.162.40 5 49 68714143 20260114194034
+34.216.210.51 0 1 1459907 
+44.217.160.233 1 1 0 20260111152639
+35.167.88.11 0 1 100723 
+35.95.26.29 0 1 1279620 
+93.158.91.242 1 1 12164 20260110144154
+162.120.184.4 1 1 12164 20260116134220
+18.214.69.210 1 1 0 20260111051708
+162.120.185.0 1 1 12164 20260126082452
+198.105.122.50 1 1 7532 20260113143352
+152.57.132.196 4 65 103981294 20260102191704
+165.232.191.152 1 1 12164 20260110230206
+100.25.198.201 1 1 12164 20260103032303
+173.252.70.28 4 38 29195207 20260126080801
+187.63.96.39 1 1 50592 20260107200446
+157.35.6.68 0 2 11101852 
+54.201.255.30 0 1 1007105 
+165.232.144.217 1 1 12164 20260130190013
+122.171.20.65 5 41 62373669 20260131173945
+34.220.157.26 0 2 1762243 
+93.158.90.65 1 1 12164 20260114030730
+105.103.22.141 0 1 15509 
+162.243.161.177 0 1 4112161 
+172.58.242.1 1 2 10765241 20260127092352
+52.26.110.85 0 1 3982355 
+35.89.29.242 0 2 2066705 
+128.192.12.115 1 1 12164 20260101215435
+181.99.89.217 0 1 446 
+52.202.246.72 1 1 0 20260111002704
+167.99.238.110 0 1 692963 
+38.154.90.45 2 2 24328 20260122104846
+193.186.4.190 1 1 12164 20260114100331
+14.166.41.220 0 1 1098 
+157.230.222.158 0 1 867381 
+44.204.154.129 1 1 12164 20260122002121
+131.221.73.106 0 1 515 
+14.169.156.17 0 1 8872 
+186.189.99.9 1 1 8804 20260107200439
+104.28.37.144 4 44 62452911 20260128083056
+134.209.113.242 0 1 1152785 
+159.26.104.67 4 41 62536244 20260103233844
+162.120.185.15 1 1 12164 20260117234339
+14.189.53.112 0 1 9204 
+3.151.194.164 2 2 24328 20260122151623
+188.166.179.139 0 1 725243 
+157.50.174.234 0 1 10755151 
+100.52.3.146 2 2 24328 20260119042937
+103.207.224.217 3 38 62183866 20260113114828
+54.187.134.160 0 2 1504620 
+192.36.109.102 1 1 12164 20260102214134
+152.57.128.2 0 2 2134838 
+173.252.70.16 5 39 29207371 20260103071913
+35.88.200.25 0 1 10755151 
+45.61.121.136 1 1 12164 20260114164953
+34.211.148.112 0 1 1152785 
+105.186.146.4 0 1 2789 
+103.58.161.137 1 1 12164 20260115022249
+137.184.29.115 0 1 812136 
+54.224.182.46 1 1 12164 20260106205125
+85.11.167.4 4 4 48656 20260106143157
+5.133.192.99 1 1 12164 20260122140540
+74.125.212.165 0 11 199237 
+93.158.91.249 1 1 12164 20260130163105
+152.57.46.128 4 41 95153368 20260126072703
+157.50.161.181 0 5 15294504 
+177.125.186.226 0 1 2034 
+44.246.22.37 0 1 1832366 
+198.235.24.54 1 1 43950 20260125015507
+45.178.112.233 0 1 3888 
+31.13.127.1 4 38 29192387 20260114194110
+106.215.138.49 0 1 734716 
+110.225.42.244 4 58 56480270 20260106114641
+162.120.184.5 1 1 12164 20260113114837
+162.142.125.215 1 1 12164 20260112155617
+157.230.53.76 0 2 825833 
+198.211.116.229 0 1 1260962 
+167.71.22.59 0 1 863284 
+152.59.180.203 0 1 261245 
+157.245.42.177 1 1 12164 20260116163043
+49.37.179.224 5 43 62421336 20260103095656
+34.219.205.173 0 2 10511645 
+44.251.175.80 0 1 4112161 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20260101 18 86 322392600 7
+20260102 32 238 430879037 16
+20260103 40 203 341943490 19
+20260104 12 49 96016278 7
+20260105 3 4 297737 3
+20260106 12 68 58253002 7
+20260107 19 162 458270350 9
+20260108 4 43 60308441 4
+20260109 46 396 810245760 10
+20260110 11 47 95627821 9
+20260111 17 19 1097709 17
+20260112 9 49 121628854 5
+20260113 30 166 448025068 14
+20260114 20 129 293283134 10
+20260115 4 4 48656 4
+20260116 11 97 168569721 7
+20260117 11 101 147493153 6
+20260118 10 79 125285312 3
+20260119 12 13 902503 12
+20260120 25 169 520697149 10
+20260121 2 4 87934 2
+20260122 17 23 1374340 13
+20260123 30 216 312479629 13
+20260124 13 55 172034273 9
+20260125 14 48 15870499 6
+20260126 21 151 393526309 11
+20260127 19 122 227617143 8
+20260128 11 112 263770561 8
+20260129 14 102 204135995 9
+20260130 33 187 630542757 12
+20260131 12 84 201985745 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 7
+30mn-1h 3
+15mn-30mn 2
+0s-30s 256
+2mn-5mn 4
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 257 4046053 223 184
+/fonts/icomoon/icomoon.ttf 62 19044416 7 7
+/fonts/ionicons/fonts/ionicons.woff2 61 3086112 3 33
+/fonts/flaticon/font/Flaticon.woff 50 213000 1 5
+/fonts/open-iconic/open-iconic.woff 34 509456 2 1
+/contact.html 19 154950 12 15
+/gallery.html 18 200458 9 11
+/about.html 13 150126 8 8
+/faculties.html 8 76455 3 5
+/facilities.html 8 116389 4 4
+/cache-test.php 1 52 1 0
+/fonts/icomoon/icomoon.woff 1 307244 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+44-100 90
+1K-2K 376
+500-1K 476
+100-500 1227
+5K+ 3249
+2K-5K 703
+0-44 85
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

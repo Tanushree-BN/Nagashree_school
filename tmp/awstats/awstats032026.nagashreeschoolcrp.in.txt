@@ -1,0 +1,1113 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202603 will be lost/reset.
+# Last config file used to build this data file was /home3/nagashreeschl/tmp/awstats/awstats.nagashreeschoolcrp.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2095                
+POS_TIME 2777                
+POS_VISITOR 23695               
+POS_DAY 26754               
+POS_DOMAIN 3523                
+POS_LOGIN 3992                
+POS_ROBOT 4147                
+POS_WORMS 4661                
+POS_EMAILSENDER 4792                
+POS_EMAILRECEIVER 4935                
+POS_SESSION 27091               
+POS_FILESIZE 28331               
+POS_REQUESTTIME 28477               
+POS_SIDER 27269               
+POS_FILETYPES 5070                
+POS_DOWNLOADS 5296                
+POS_OS 5375                
+POS_BROWSER 5644                
+POS_SCREENSIZE 6414                
+POS_UNKNOWNREFERER 6488                
+POS_UNKNOWNREFERERBROWSER 7285                
+POS_ORIGIN 7561                
+POS_SEREFERRALS 7696                
+POS_PAGEREFS 7859                
+POS_SEARCHWORDS 8043                
+POS_KEYWORDS 8195                
+POS_MISC 2441                
+POS_ERRORS 8254                
+POS_CLUSTER 3848                
+POS_SIDER_404 8398                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260312172451 142 35982 13068564363296
+FirstTime 20260301080346
+LastTime 20260312170413
+LastUpdate 20260312195102 142 0 142 0 0
+TotalVisits 89                  
+TotalUnique 76                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 76                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 173607 27 46 55002
+1 5 5 108768 6 9 3165
+2 8 8 281839 39 41 7656
+3 10 10 321064 456 474 210268
+4 3 9 183743 19 22 5433
+5 4 4 179176 30 38 9790
+6 5 5 192251 186 224 406284
+7 28 28 264206 223 228 2272788
+8 8 8 231476 26 28 7286
+9 0 0 0 2 29 296598
+10 2 2 57869 16 21 6404
+11 6 6 173607 18 22 18295
+12 0 0 0 2 4 27088
+13 4 4 84019 4 8 2780
+14 5 5 160532 548 554 202306
+15 6 6 268764 190 191 92083
+16 8 8 326633 51 95 532288
+17 9 9 403146 74 128 686788
+18 0 0 0 14 15 130687
+19 15 49 95947143 25 39 70904
+20 3 3 102663 75 82 139620
+21 7 7 173607 136 159 1268813
+22 12 12 315495 19 33 943084
+23 8 8 294914 41 47 42150
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 113 147 65730876
+se 9 9 117675
+de 7 7 89588
+ro 5 5 223970
+in 3 3 102663
+au 3 3 57869
+gb 3 3 102663
+cz 3 3 134382
+ca 3 3 26237
+ru 2 2 26150
+eu 2 2 89588
+ua 2 2 69543
+fr 1 1 44794
+lb 1 1 44794
+af 1 7 138949
+dk 1 1 13075
+be 1 1 13075
+zz 1 1 87
+nl 1 1 44794
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+Googlebot/ 112 1284713 20260312061143 0
+Applebot/ 50 591644 20260305171453 0
+bingbot/ 34 4324345 20260312143949 0
+crawl 10 447940 20260312172451 0
+checker 5 65375 20260312155626 0
+curl 5 66395 20260306034138 0
+[\s_+:,\.\;\/\\-]bot 2 26150 20260309182758 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 13075 20260305110220 0
+no_user_agent 1 44794 20260309191936 0
+link 1 13075 20260301194342 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff2 1 50592 0 0
+js 20 282667 0 0
+Unknown 14 1011 0 0
+woff 1 4260 0 0
+css 10 94235 0 0
+html 145 4621633 0 0
+png 1 261245 0 0
+jpg 9 28274211 0 0
+ttf 1 307168 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/images/vedio.mp4 0 2 33173750
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+androidkitkat 1 1
+macosx15 12 6
+ios_iphone 3 3
+win10 89 89
+androidnougat 2 2
+Unknown 78 42
+macosx11 1 1
+ios_ipad 1 1
+android11 1 1
+win8.1 1 1
+linux 7 7
+macosx 1 1
+android 4 4
+android10 1 1
+android12 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 37
+chrome91.0.4472.124 3 3
+mozilla 64 28
+chrome116.0 1 1
+chrome78.0.3904.108 25 25
+chrome80.0.3987.162 1 1
+chrome91.0.4472.114 1 1
+chrome101.0.4951.61 2 2
+netscape5.0 7 7
+chrome142.0.0.0 4 4
+safari16.0 1 1
+chrome99.0.4844.74 1 1
+safari10.1 1 1
+safari17.3.1 1 1
+opera80.4.4244.7786 2 2
+nokia 1 1
+chrome97.0.4692.71 1 1
+chrome145.0.0.0 1 1
+chrome116.0.0.0 1 1
+chrome122.0.0.0 1 1
+chrome95.0.4638.69 13 13
+chrome60.0.3112.107 1 1
+safari17.1.2 1 1
+chrome88.0.4240.193 36 36
+chrome101.0.4951.41 1 1
+chrome105.0.0.0 1 1
+chrome130.0.0.0 3 3
+Unknown 10 10
+safari26.0 1 1
+chrome41.0.2225.0 1 1
+chrome137.0.0.0 1 1
+chrome131.0.0.0 8 2
+safari 1 1
+android 1 1
+chrome111.0 1 1
+chrome123.0.0.0 1 1
+chrome94.0.4606.81 1 1
+firefox123 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0_(l9scan/2.0.130323e2435323e2531323e2236313;__https://leakix.net) 20260304072105
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20260307210927
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20260308115858
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260306134758
+Nokia7250/1.0_(3.14)_Profile/MIDP-1.0_Configuration/CLDC-1.0 20260310213958
+Mozilla/5.0_(compatible;_Dataprovider.com) 20260303190910
+Cpanel-HTTP-Client/1.0 20260304071906
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20260302065552
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20260304071906
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260306134758
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 153 159
+From1 0 0
+From2 3 3
+From3 1 1
+From4 5 41
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://nafora.ly//wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 15 6921
+406 498 112548
+206 5 10245
+409 936 76941
+404 859 353399
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 660
+/webhook/dropzone 1 -
+/wp-includes/ID3 1 -
+/data/config 1 -
+/.env.production 1 -
+/wp-content/plugins/pwnd-1/ 1 -
+/wp-content/plugins/seooyanz/ 1 -
+/api/settings.json 1 -
+/webhook/multipart 1 -
+/api/catalog/images 1 -
+/ec2/metadata 1 -
+/form/avatar 1 -
+/wp-includes/js/jcrop/ 1 -
+/wp-admin/css/colors/light/ 1 -
+/wp-content/plugins/fix/ 1 -
+/aws/metadata 1 -
+/js/popper.min.js.map 1 -
+/webhook/images 1 -
+/var/log/apache2/error.log 1 -
+/manage 1 -
+/nag-logo.png 15 -
+/uploads/ 1 -
+/webhook/v1/documents 1 -
+/admin/env 1 -
+/webhook/submit 1 -
+/wp-admin/ 2 -
+/wp-content/uploads/wpr-addons/forms/ 1 -
+/admin/uploads/images/ 1 -
+/webhook/api/image 1 -
+/s/130323e2435323e2531323e2236313/_/ 1 -
+/form/public/upload 1 -
+/form/assets 1 -
+/webhook/attachments 1 -
+/console/ 1 -
+/webhook/data 1 -
+/old/backup.zip 1 -
+/Dockerfile 1 -
+/internal/env 1 -
+/webhook/attachment 1 -
+/.env.dev 1 -
+/tmp/config.json 1 -
+/wp-content/plugins/wp-freeform/ 1 -
+/Admin/uploads/ 1 -
+/.env1 1 -
+/backup.zip 1 -
+/wp-content/plugins/ubh/ 1 -
+/webhook/api/images 1 -
+/wp-includes/images/wlw/ 1 -
+/wp-content/plugins/pwnd/ 1 -
+/form/profile/avatar 1 -
+/api/batch/upload 1 -
+/debug/default/view 1 -
+/wp-content/uploads/ 1 -
+/form/upload 1 -
+/form/uploads 1 -
+/certs 1 -
+/wp-content/themes/digital-download/ 1 -
+/aws/credentials 1 -
+/form/v2/files 1 -
+/admin 2 -
+/v2/api-docs 1 -
+/file-upload 1 -
+/.vscode/sftp.json 3 -
+/.aws/credentials 1 -
+/wp-content/plugins/owfsmac/ 1 -
+/form/storage 1 -
+/form/images 1 -
+/webhook/documents 1 -
+/xmlrpc.php 7 -
+/wp-json/wp/v2/users 1 -
+/var/backups/backup.tar.gz 1 -
+/sitemap.xml.gz 4 -
+/k8s 1 -
+/api/v1/users/avatar 1 -
+/config.yaml 1 -
+/v1/upload 1 -
+/webhook/document 1 -
+/gcp/credentials.json 1 -
+/aws/config 1 -
+/webhook/api/submit 1 -
+/form/api/blob 1 -
+/webhook/storage 1 -
+/debug/config 1 -
+/ssl 1 -
+/latest/dynamic/instance-identity 1 -
+/webhook/api/document 1 -
+/api/images/upload 1 -
+/config/secrets.json 1 -
+/ec2/user-data 1 -
+/settings.yml 1 -
+/webhook/import 1 -
+/prod 1 -
+/form/internal/upload 1 -
+/wp-includes/SimplePie/ 3 -
+/api/import 1 -
+/secrets.yaml 1 -
+/.aws/token 1 -
+/webhook/api/assets 1 -
+/aws/keys 1 -
+/form/content 1 -
+/wordpress/wp-admin/includes 1 -
+//wp-includes/js/tinymce/themes/inlite/ 2 -
+/form/document 1 -
+/log 1 -
+/cache 1 -
+/latest/dynamic/instance-identity/document 1 -
+/webhook/files 1 -
+/wp-includes/widgets/ 1 -
+/graphql 1 -
+/.docker/config.json 1 -
+/wp-admin/css/colors/midnight/ 1 -
+/config.json 2 -
+/form/resources 1 -
+/api/gql 1 -
+/webhook/api/asset 1 -
+/webhook/export 1 -
+/images/video-thumbnail.jpg 1 http://www.nagashreeschoolcrp.in/
+/wp-content/plugins/aryabot/ 1 -
+/webhook/v2/files 1 -
+/wp-includes/sitemaps/ 1 -
+/api/documents 1 -
+/wp-content/themes/thuoc-nam/ 1 -
+/randkeyword.PhP7 1 -
+/wp-content/plugins/linkpreview/ 1 -
+/webhook/bulk 1 -
+/form/api/avatar 1 -
+/.git/refs 1 -
+/api/content/upload 1 -
+/form/api/content 1 -
+/wp-content/plugins/apikey/ 1 -
+/site/xmlrpc.php 5 -
+/ioxi002.PhP7 1 -
+/new/wp-json/wp/v2/users 1 -
+/var 1 -
+/mt/ 1 -
+/logs/error.log 1 -
+/media/system/js/core.js 4 -
+/form/api/storage 1 -
+/config 1 -
+/form/v1/upload 1 -
+/wp-content/ALFA_DATA/alfacgiapi/ 1 -
+/wp-content/plugins/BrutalShell/ 1 -
+/wp-admin/network/ 1 -
+/firebase/credentials.json 1 -
+/form/import 1 -
+/administrator/ 1 -
+/test 1 -
+/secrets.txt 1 -
+/test1/ 3 https://www.google.com/
+/api/images 1 -
+/wp-includes/js/plupload/ 1 -
+/api/storage 1 -
+/admin/upload 1 -
+/webhook/v1/media 1 -
+/wp-content/plugins/revslider/includes/external/page/ 1 -
+/form/uploadfile 1 -
+/routes/ 1 -
+/form/api/submit 1 -
+/swagger/index.html 1 -
+/staging/config.json 1 -
+/webhook/file 1 -
+/wp-content/plugins/seoo/ 1 -
+/wp-includes/ID3/license.txt 13 -
+/wp-content/plugins/dummyyummy/ 1 -
+/include/ 1 -
+/api/v1/upload 1 -
+/templates/beez3/ 1 -
+/fileupload 1 -
+/form/attachment 1 -
+/images/bg1.jpg 1 http://www.nagashreeschoolcrp.in/
+/form/photos 1 -
+/form/file-upload 1 -
+/dev/config.json 1 -
+/latest/meta-data/instance-id 1 -
+/api/attachments 1 -
+/ssl/cert.pem 1 -
+/api/swagger.json 1 -
+/api/upwload 1 -
+/wp-content/themes/sky-pro/ 1 -
+/azure 1 -
+/sites/default/files/ 1 -
+/wp-content/themes/tflow/ 1 -
+/webhook/api/storage 1 -
+/form/data 1 -
+/certs/server.crt 1 -
+/credentials 1 -
+/wp/ 4 https://www.google.com/
+/swagger/v1/swagger.json 1 -
+/index/ 1 -
+/about/ 1 -
+/sftp-config.json 2 -
+/var/log 1 -
+/webhook-test/upload 1 -
+/settings 1 -
+/webhook/api/upload 1 -
+/home/ 1 -
+/wp-content/plugins/seoplugins/ 1 -
+/form/attachments 1 -
+/config/dev.json 1 -
+/wp-includes/pomo/ 1 -
+/wp-content/uploads/2023/ 1 -
+/webhook/v1/upload 1 -
+/ssl/fullchain.pem 1 -
+/form/api/assets 1 -
+/wp-content/plugins/rencontre/inc/photo_import/ 1 -
+/webhook/api/uploads 1 -
+/api-docs/swagger.json 1 -
+/wp-content/upgrade/ 1 -
+/wp-includes/Requests/ 1 -
+/data 1 -
+/.DS_Store 1 -
+/app/config 1 -
+/wp-content/plugins/random/ 1 -
+/baxa1.phP8 1 -
+/app/secrets.yml 1 -
+/wp-includes/images/ 1 -
+/webhook-test/import 1 -
+/settings.yaml 1 -
+/wp-content/plugins/cache-wordpress/ 1 -
+/latest/meta-data/public-ipv4 1 -
+/webhook/admin/import 1 -
+/wp-admin/user/ 1 -
+/form/account/avatar 1 -
+/wp-content/plugins/Cache/ 1 -
+/api/blob/upload 1 -
+/docker-compose.yml 1 -
+/upload 1 -
+/webhook/api/attachment 1 -
+/web/xmlrpc.php 5 -
+/.well-known/security.txt 3 -
+/wp-content/maintenance/ 1 -
+/webhook/drive 1 -
+/ec2/security-credentials 1 -
+/latest/meta-data/iam/security-credentials 1 -
+/ads.txt 1 -
+/credentials.yml 1 -
+/wp-content/themes/pridmag/ 1 -
+/credentials.json 1 -
+/site/wp-json/wp/v2/users 1 -
+/modules/mod_simplefileuploadv1.3/elements/ 1 -
+/api/profile/photo 1 -
+/api/resources/upload 1 -
+/webhook/photo 1 -
+/form/profile/photo 1 -
+/webhook/internal/upload 1 -
+/wp-includes/css/dist/ 1 -
+/api/v1/files 1 -
+/panel/config 1 -
+/wp/xmlrpc.php 5 -
+/config/secrets.yml 1 -
+/robots.txt 58 -
+/var/www 1 -
+/system/config 1 -
+/assets/ 1 -
+/metadata/iam 1 -
+/config/local.json 1 -
+/wordpress/wp-json/wp/v2/users 1 -
+/form/batch 1 -
+/api/assets 1 -
+/backup/xmlrpc.php 5 -
+/v3/config 1 -
+/old 1 -
+/wp-content/plugins/erin/ 1 -
+/webhook/asset 1 -
+/debug/settings 1 -
+/latest/meta-data/iam 1 -
+/blog/xmlrpc.php 5 -
+/wp-content/plugins/db/ 1 -
+/webhook/profile/avatar 1 -
+/wp-content/themes/wp-pridmag/ 1 -
+/old/xmlrpc.php 5 -
+/ssl/private.key 1 -
+/logs/access.log 1 -
+//wp-includes/js/dist/ 2 -
+/prod/config.json 1 -
+/wp-includes/ID3/wp-includes/IXR/ 1 -
+/WP/ 3 https://www.google.com/
+/wp-admin/css/colors/sunrise/ 1 -
+/wp-content/themes/alera/ 1 -
+/swagger-ui.html 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+/firebase/config.json 1 -
+/form/api/media 1 -
+/config.yml 1 -
+/form/drive 1 -
+/uploads 1 -
+/form/export 1 -
+/secrets 1 -
+/wp-includes/css/ 1 -
+/form/api/asset 1 -
+/form/admin/upload 1 -
+/v1/config 1 -
+/themes/pridmag/ 1 -
+/data/secrets.json 1 -
+/tmps/ 1 -
+/api/profile/avatar 1 -
+/storage/logs 1 -
+/form/shared/upload 1 -
+/upload/image 1 -
+/.kube/config 1 -
+/webhook/media 1 -
+/logs 1 -
+/wp-includes/images/crystal/ 1 -
+/webhook/content 1 -
+/api 1 -
+/test/debug 1 -
+/test/config.json 1 -
+/wp-admin/js/widgets/ 1 -
+/wp-includes/assets/ 1 -
+/wp-includes/js/ 1 -
+/backup.tar.gz 1 -
+/wp-includes/certificates/ 1 -
+/swagger/swagger-ui.html 1 -
+/metadata/instance 1 -
+/firebase 1 -
+/webhook/api/avatar 1 -
+/metadata/network 1 -
+/cache/debug.log 1 -
+/.aws/cli 1 -
+/ubh/ 1 -
+/webhook/api/files 1 -
+/admin/media 1 -
+/api/assets/upload 1 -
+/wp-admin/css/colors/blue/ 1 -
+/certs/server.key 1 -
+/wp-content/plugins/backup-backup/includes/ 1 -
+/src/config 1 -
+//wp-includes/l10n/ 2 -
+/.env.test 1 -
+/tmp/debug.log 1 -
+/api/graphql 1 -
+/plugins/jquery.filer/uploads/ 1 -
+/internal/settings 1 -
+/webhook/api/file 1 -
+/components/ 1 -
+/webhook/api/content 1 -
+/blog/wp-json/wp/v2/users 1 -
+/azure/credentials.json 1 -
+/api/products/images 1 -
+/form/api/file 1 -
+/system/env 1 -
+/wp-admin/css/colors/ocean/ 1 -
+/wp-includes/js/tinymce/plugins/fullscreen/ 1 -
+//wp-includes/js/jquery/ 2 -
+/wp-content/plugins/limit/ 1 -
+/docker-compose.yaml 1 -
+/metadata 1 -
+/config/database.json 1 -
+/admin/config 1 -
+/webhook/account/avatar 1 -
+/webhook/uploads 1 -
+/settings.json 1 -
+/api/gallery/upload 1 -
+/.aws 1 -
+/wp-content/themes/ 1 -
+/login.action 1 -
+/wordpress/xmlrpc.php 5 -
+/old/wp-json/wp/v2/users 1 -
+/v3/api-docs 1 -
+/webhook/file-upload 1 -
+/v2/upload 1 -
+/wp-content/plugins/elementor/ 1 -
+/files/upload 1 -
+/webhook/blob 1 -
+/wp-content/plugins/cakil/ 1 -
+/.git/index 1 -
+/admin/uploads/ 1 -
+/webhook/resources 1 -
+/sitemaps.xml 3 -
+/wp-content/plugins/cekidot/ 1 -
+/keys/private.key 1 -
+/form/v1/documents 1 -
+/randkeyword.PhP8 1 -
+/form/admin/import 1 -
+/admin/tmp/ 1 -
+/webhook/resource 1 -
+/api/storage/upload 1 -
+/wp-includes/rest-api/ 1 -
+/server 1 -
+/form/photo 1 -
+/webhook/api/attachments 1 -
+/api/files 1 -
+/wp-content/plugins/wpeazvp/ 1 -
+/cekidot/ 1 -
+/wp-content/x/ 1 -
+/form/multipart 1 -
+/webhook/image 1 -
+/api/blob 1 -
+/wp-content/uploads/simple-file-list/ 1 -
+/blog/ 4 https://www.google.com/
+/dev 1 -
+/api/v1/documents 1 -
+/webhook/api/media 1 -
+/var/log/apache2/access.log 1 -
+/form/api/uploads 1 -
+/latest/user-data 1 -
+//wp-content/plugins/erinyani/ 2 -
+/panel/admin 1 -
+/actuator/env 1 -
+/wp-content/uploads/2024/ 1 -
+/wp-includes/fonts/ 1 -
+/form/v2/upload 1 -
+/api/storage/local 1 -
+/webhook/internal/import 1 -
+/api/account/avatar 1 -
+/azure/config.json 1 -
+/.git/logs 1 -
+/api/files/upload 1 -
+/form/api/import 1 -
+/form/api/attachments 1 -
+/webhook/v1/files 1 -
+/sitemap.xml 3 -
+/wp-includes/IXR/ 1 -
+/webhook/fileupload 1 -
+/config.env 1 -
+/admin/files 1 -
+/config/prod.json 1 -
+/webhook/upload 1 -
+/form/media 1 -
+/.env.staging 1 -
+/backup 1 -
+/ynz.PhP7 1 -
+/cache-wordpress/ 1 -
+/form/api/document 1 -
+/2025/ 3 https://www.google.com/
+/.env.stage 1 -
+/debug/env 1 -
+/admin/upload/ 1 -
+/form/api/documents 1 -
+/secrets.json 1 -
+/_next 7 -
+/sitemap.txt 2 -
+/k8s/config 1 -
+/form/backup 1 -
+/backup/wp-json/wp/v2/users 1 -
+/wp-content/themes/seotheme/ 1 -
+/webhook/public/upload 1 -
+/secrets.yml 1 -
+/telescope/requests 1 -
+/api/bulk-upload 1 -
+/wp-admin/js/ 1 -
+/wp-content/plugins/google-seo-rank/ 1 -
+/about 1 -
+/form/fileupload 1 -
+/wp-admin/css/colors/ 1 -
+/wp-admin/images/ 1 -
+/webhook/v1/import 1 -
+/ec2 1 -
+/webhook/api/blob 1 -
+/aws 1 -
+/var/log/nginx/error.log 1 -
+/rest/settings 1 -
+/patriotic/wp-includes/images/smilies/ 1 -
+/.git/config 3 -
+/.svn 1 -
+/wp-content/mu-plugins/ 1 -
+/form/v1/import 1 -
+/debug 1 -
+/wp-admin/css/ 5 binance.com
+/webhook/avatar 1 -
+/api/products/upload 1 -
+/var/backups 1 -
+/feed/ 13 -
+/.hg 1 -
+/webhook/api/documents 1 -
+/private/config 1 -
+/wp-content/plugins/wp-diambar/includes/ 1 -
+/trace.axd 1 -
+/wp-admin/meta/ 1 -
+/docker 1 -
+/form/submit 1 -
+/wp/wp-json/wp/v2/users 1 -
+/api/v2/files 1 -
+/modules/ 1 -
+/internal 1 -
+/iam/role 1 -
+/web/wp-json/wp/v2/users 1 -
+/internal/config 1 -
+/config/test.json 1 -
+/private/settings.json 1 -
+/wordpress/wp-content/uploads/ 1 -
+/blog/wp-includes/ 1 -
+/js/aos.js.map 1 -
+/wp-includes/js/codemirror/ 1 -
+/wp-content/plugins/cp-pro/ 1 -
+/form/resource 1 -
+/wp-includes/js/jquery/jquery.js 4 -
+/ALFA_DATA/ 1 -
+/private 1 -
+/wp-content/uploads/ao_ccss/ 1 -
+/k8s/secrets 1 -
+/keys/public.key 1 -
+/wp-content/plugins/ 1 -
+/gcp 1 -
+/wp-content/themes/rishi/ 1 -
+/humans.txt 1 -
+/cache/config 1 -
+/api/photos 1 -
+/form/documents 1 -
+/config/database.yml 1 -
+/form/internal/import 1 -
+/webhook/shared/upload 1 -
+/api/multipart 1 -
+/wp-content/uploads/2021/ 1 -
+/src/settings.json 1 -
+/@vite/env 1 -
+/.aws/keys 1 -
+/form/admin/files 1 -
+/wordpress/wp-admin/includes/wp-admin/js/ 1 -
+/retu11.PhP7 1 -
+/form/v1/files 1 -
+/ALFA_DATA/alfacgiapi/ 1 -
+/webjars/swagger-ui/index.html 1 -
+/wp-content/uploads/wp-cert.phtml 1 -
+/storage 1 -
+/webhook/batch 1 -
+/api/secrets.json 1 -
+/api/documents/upload 1 -
+/v2/_catalog 1 -
+/keys 1 -
+/var/www/html 1 -
+/form/asset 1 -
+/api/config 1 -
+/saka.phP7 1 -
+/wp-content/plugins/prenota/ 1 -
+/wp-includes/Text/ 1 -
+/admin/settings 1 -
+/latest/meta-data 1 -
+/webhook/photos 1 -
+/wp-content/uploads/revslider/templates/immersion-photography/ 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/kubernetes 1 -
+/api/s3/upload 1 -
+/includes/ 1 -
+/webhook/admin/upload 1 -
+/swagger.json 1 -
+/import 1 -
+/wp-content/plugins/wp-hps/sh/ 1 -
+/api/v1/media 1 -
+/wp-admin/css/colors/modern/ 1 -
+/panel 1 -
+/new/xmlrpc.php 5 -
+/admin/editor/ 1 -
+/old/config 1 -
+/blog/robots.txt 1 https://nafora.ly//wp-login.php
+/webhook/profile/photo 1 -
+/templates/atomic/ 1 -
+/sitemap_index.xml 4 -
+/.aws/config 1 -
+/wp-includes/wp-includes/ 1 -
+/webhook/admin/files 1 -
+/form/image 1 -
+/wp-includes/blocks/ 1 -
+/wp-content/plugins/core-stab/ 1 -
+/.env.example 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 1 -
+/graphql/api 1 -
+/test/ 3 https://www.google.com/
+/form/blob 1 -
+/wp-content/languages/ 1 -
+/staging 1 -
+/wp-content/plugins/wp-theme-editor/ 1 -
+/wp-includes/customize/ 1 -
+/app/settings 1 -
+/tmp 1 -
+/llms.txt 1 -
+/metadata/security-credentials 1 -
+/form/api/image 1 -
+/wp-admin/maint/ 1 -
+/.env2 1 -
+/wp-content/ 3 -
+/worm0.PhP7 1 -
+/api/drive/upload 1 -
+/site/wp-includes/ 1 -
+/baxa1.phP7 1 -
+/wp-includes/Text/Diff/Renderer/ 1 -
+/wp-includes/ID3/ 1 -
+/.git 1 -
+/up/.well-known/ 1 -
+/kubernetes/secrets.yml 1 -
+/config.js 1 -
+/admin/images/slider/ 1 -
+/api/uploads 1 -
+/wordpress/wp-includes/ 1 -
+/iam/token 1 -
+/var/log/nginx 1 -
+/wp-content/plugins/WordPressCore/ 1 -
+/.env.tmp 1 -
+/form/api/upload 1 -
+/gcp/service-account.json 1 -
+/form/api/attachment 1 -
+/webhook-test/files 1 -
+/wordpress/wp-admin/includes/ 1 -
+/form/v1/media 1 -
+/form/api/files 1 -
+/management 1 -
+/pgs.phP7 1 -
+/iam 1 -
+/wp-content/plugins/home/ 1 -
+/api/users/avatar 1 -
+/wp-includes/sitemaps/providers/ 1 -
+/credentials.txt 1 -
+/wp-content/plugins/core/ 1 -
+/wp-includes/images/smilies/ 1 -
+/wp-content/themes/sketch/ 1 -
+/.env.local 1 -
+/wp-content/uploads/typehub/custom/ 1 -
+/wp-admin/css/colors/ectoplasm/ 1 -
+/ec2/instance 1 -
+/latest/meta-data/hostname 1 -
+/wp-includes/theme-compat/ 1 -
+/form/bulk 1 -
+/wp-content/plugins/Uwogh-Segs/ 1 -
+/system 1 -
+/wp-content/uploads/2022/ 1 -
+/wp-content/plugins/zaen/includes/ 1 -
+/upload/image/ 1 -
+/wp-content/themes/zakra/ 1 -
+/wp-includes/SimplePie/XML/ 1 -
+/.git/HEAD 1 -
+/webhook/assets 1 -
+/uploadfile 1 -
+/.env.prod 1 -
+/api/media 1 -
+/wp-includes/ 1 -
+/webhook/uploadfile 1 -
+/webhook/backup 1 -
+//wp-includes/css/dist/ 2 -
+/.env.development 1 -
+/system/debug 1 -
+/var/log/apache2 1 -
+/dashboard 1 -
+/form/dropzone 1 -
+/admin/controller/extension/extension/ 1 -
+/security.txt 1 -
+/v2/config 1 -
+/latest 1 -
+/iam/security-credentials 1 -
+/credentials.yaml 1 -
+/var/log/nginx/access.log 1 -
+/.env.save 1 -
+/upload/file 1 -
+/wp-includes/PHPMailer/ 1 -
+/.tmb/ 1 -
+/latest/meta-data/local-ipv4 1 -
+/dev/debug 1 -
+/config/database.yaml 1 -
+/latest/dynamic 1 -
+/wp-includes/images/media/ 1 -
+/webhook/api/import 1 -
+/control 1 -
+/form/files 1 -
+/x/ 2 -
+/wordpress/ 5 -
+/cakil/ 1 -
+/webhook/v2/upload 1 -
+/form/api/images 1 -
+/.well-known/pki-validation/ 1 -
+/form/file 1 -
+/wp-content/themes/twentyfive/ 1 -
+/api/media/upload 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 76
+159.65.139.58 24 24 1075056 20260308173822
+152.42.254.29 12 12 537528 20260305160247
+162.215.254.201 9 9 576 20260304071906
+149.56.150.98 8 8 303682 20260303190901
+176.65.148.161 7 7 89588 20260307210927
+208.84.101.66 6 6 268764 20260308023723
+45.94.31.197 5 5 223970 20260306064514
+149.56.160.145 4 40 62367048 20260303190909
+34.170.124.52 3 3 134382 20260311154107
+136.112.108.23 3 3 134382 20260305232645
+139.59.132.8 3 3 57869 20260304072105
+89.187.187.84 3 3 134382 20260305022626
+34.45.83.164 3 3 134382 20260305230243
+206.168.34.196 2 2 26150 20260301084707
+167.94.138.53 2 2 26150 20260308115858
+54.90.60.220 2 2 26150 20260307220521
+54.221.64.202 2 2 26150 20260304222309
+37.19.223.227 2 2 69543 20260309014249
+185.177.72.13 2 2 26150 20260306034118
+107.23.189.17 2 2 26150 20260310213958
+138.199.35.8 2 2 89588 20260304173858
+34.143.234.189 2 2 89588 20260304221114
+107.172.58.36 1 1 13075 20260310032835
+85.203.44.233 1 1 44794 20260301174011
+204.112.225.47 1 1 13075 20260306210611
+212.30.36.111 1 1 44794 20260311200324
+87.236.176.246 1 1 13075 20260302065552
+141.11.36.50 1 1 44794 20260309105414
+47.129.138.186 1 1 87 20260304071909
+192.71.3.26 1 1 13075 20260303231733
+193.176.211.228 1 1 44794 20260310062250
+199.244.88.230 1 1 13075 20260309142125
+98.90.116.248 1 1 13075 20260309220829
+209.97.171.155 1 1 44794 20260312170413 20260312170413 /
+93.158.90.73 1 1 13075 20260311013454
+147.185.132.82 1 1 44794 20260306134758
+164.152.25.228 1 1 13075 20260312102719
+176.110.219.14 1 1 44794 20260311190121
+93.158.90.147 1 1 13075 20260310162440
+18.216.168.197 1 1 87 20260304071909
+93.158.91.251 1 1 13075 20260301080346
+209.97.155.206 1 1 13075 20260303221943
+45.131.193.30 1 1 44794 20260310201549
+93.158.91.247 1 1 13075 20260306013923
+159.223.15.166 1 1 13075 20260307001155
+84.239.27.133 1 1 44794 20260310054354
+5.133.192.197 1 1 13075 20260306145038
+34.42.12.99 1 1 13075 20260309071314
+157.173.122.176 1 1 13075 20260305234723
+45.132.224.110 1 1 44794 20260310193912
+45.154.153.19 1 1 13075 20260304072520
+192.71.142.134 1 1 13075 20260309030728
+121.127.34.138 1 7 138949 20260305041336
+174.138.64.240 1 1 13075 20260302012050
+167.172.76.200 1 1 44794 20260306211349
+44.201.89.203 1 1 13075 20260305110220
+64.236.141.192 1 1 13075 20260310132654
+18.218.154.221 1 1 0 20260307022237
+47.77.233.225 1 1 13075 20260312004619
+98.83.106.51 1 1 13075 20260301194342
+13.232.226.152 1 1 0 20260306045945
+143.198.216.63 1 1 44794 20260311210413
+192.36.166.94 1 1 13075 20260303083428
+13.51.47.97 1 1 87 20260304071909
+35.247.163.50 1 1 13075 20260304221828
+64.225.53.159 1 1 13075 20260307202056
+23.178.112.105 1 1 87 20260304071909
+64.227.184.75 1 1 13075 20260305000641
+35.95.15.115 1 1 87 20260304071909
+77.36.113.21 1 1 44794 20260309082554
+193.36.225.7 1 1 44794 20260305165713
+192.36.109.86 1 1 13075 20260305135634
+13.220.211.63 1 1 0 20260309070755
+217.60.3.203 1 1 13075 20260309135200
+46.173.253.13 1 1 44794 20260303040131
+104.209.11.208 1 1 13075 20260310025037
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20260301 5 5 97094 4
+20260302 2 2 26150 2
+20260303 22 56 96197263 8
+20260304 36 36 603914 15
+20260305 35 41 1535069 16
+20260306 14 14 423727 9
+20260307 10 10 231476 6
+20260308 8 8 294914 3
+20260309 10 10 224506 9
+20260310 10 10 257626 9
+20260311 7 7 281839 5
+20260312 3 3 70944 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+2mn-5mn 1
+5mn-15mn 1
+0s-30s 85
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 139 4427584 83 80
+/.well-known/acme-challenge/VXtvnNBDMYqeztH_tmbHsP-W8gBQvPSJPGAcEIxFQ6U 5 435 5 5
+/contact.html 2 49498 0 1
+/facilities.html 1 40145 0 0
+/gallery.html 1 43003 0 0
+/.well-known/acme-challenge/CT5UMV8C8DGVX-KNVGUP5Q51-QE4ELHB 1 64 0 0
+/.well-known/acme-challenge/2XC6RMX6US5DN1MSLVIJHF48C8B0T9HN 1 64 0 0
+/.well-known/acme-challenge/LFE01D6AFMMDT7VFJM4VGAI77OF_4ANI 1 64 0 0
+/fonts/flaticon/font/Flaticon.woff 1 4260 0 0
+/.well-known/acme-challenge/IWKPYCO8HMY5HREBYRRDSDJ3JZT7YPBS 1 64 0 0
+/.well-known/acme-challenge/PMDMX3DH318C23XW91L_D124GOL0UKWC 1 64 0 0
+/about.html 1 34703 0 0
+/fonts/icomoon/icomoon.ttf 1 307168 0 1
+/.well-known/acme-challenge/Y4RQ3CUGN7MX2EORL9RG3M7CXS_43RE8 1 64 0 0
+/.well-known/acme-challenge/HTGIBL-7QDKVNM-6IO6PXYD3Z372BQ1Y 1 64 0 0
+/faculties.html 1 26700 0 0
+/.well-known/acme-challenge/1HJ9S247_BXCETB60EFYNX7EHT1085E3 1 64 1 0
+/.well-known/acme-challenge/DYMETFHLZ6YCDG5QIMNKHIKJ186EUOI- 1 64 0 1
+/fonts/ionicons/fonts/ionicons.woff2 1 50592 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+100-500 1098
+44-100 941
+0-44 45
+2K-5K 63
+1K-2K 31
+5K+ 285
+500-1K 278
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME
