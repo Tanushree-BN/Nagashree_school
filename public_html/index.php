@@ -7,14 +7,17 @@ $activePage = 'home';
 <head>
   <title>Nagashree English School</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:image" content="https://nagashreeschoolcrp.in/images/nag-logo.png">
   <meta property="og:url" content="https://nagashreeschoolcrp.in">
   <meta property="og:title" content="Nagashree English School">
   <meta property="og:description" content="The school which aims at producing confident leaders in many fields who will drive the country forward to greater prosperity.">
 
-  <!-- Favicon -->
-  <link rel="icon" href="nag-logo.png" type="image/png">
+  <!-- Tab icon / Title logo -->
+  <link rel="icon" href="images/nag-logo.png" type="image/png">
+  <link rel="shortcut icon" href="images/nag-logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/nag-logo.png">
+  <meta name="theme-color" content="#0f2b46">
   <!-- Replace your current meta tags with these optimized ones -->
   <meta name="description" content="Nagashree English School in Channarayapatna offers quality education with certified teachers, modern facilities, and a nurturing environment for holistic development.">
   <meta name="keywords" content="Nagashree English School, CBSE School Channarayapatna, Best School Hassan, English Medium School, School Admissions 2025, Quality Education Karnataka">
@@ -50,6 +53,7 @@ $activePage = 'home';
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/site-enhancements.css">
 
   <style>
     /* ==================== */
@@ -1204,6 +1208,7 @@ $activePage = 'home';
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/site-enhancements.js"></script>
 
   <script>
     // Remove owl carousel initialization since we're not using slider anymore

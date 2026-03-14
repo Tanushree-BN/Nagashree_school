@@ -29,7 +29,7 @@ function navItemClass(string $activePage, string $key): string
   <div class="container">
     <div class="row no-gutters d-flex align-items-center align-items-stretch">
       <div class="col-md-4 d-flex align-items-center py-4">
-        <img src="images/nag-logo.png" alt="" class="img-fluid" style="width: 80px; ">
+        <img src="images/nag-logo.png" alt="Nagashree English School logo" class="img-fluid" style="width: 80px; ">
         <a class="navbar-brand" href="index.php" style="font-size:18px;">Nagashree English School</a>
       </div>
       <div class="col-lg-8 d-block">

@@ -4,14 +4,17 @@
 <head>
   <title>Nagashree English School</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:image" content="https://nagashreeschoolcrp.in/images/nag-logo.png">
   <meta property="og:url" content="https://nagashreeschoolcrp.in">
   <meta property="og:title" content="Nagashree English School">
   <meta property="og:description" content="The school which aims at producing confident leaders in many fields who will drive the country forward to greater prosperity.">
 
-  <!-- Favicon -->
-  <link rel="icon" href="nag-logo.png" type="image/png">
+  <!-- Tab icon / Title logo -->
+  <link rel="icon" href="images/nag-logo.png" type="image/png">
+  <link rel="shortcut icon" href="images/nag-logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/nag-logo.png">
+  <meta name="theme-color" content="#0f2b46">
   <!-- Replace your current meta tags with these optimized ones -->
 <meta name="description" content="Nagashree English School in Channarayapatna offers quality education with certified teachers, modern facilities, and a nurturing environment for holistic development.">
 <meta name="keywords" content="Nagashree English School, CBSE School Channarayapatna, Best School Hassan, English Medium School, School Admissions 2025, Quality Education Karnataka">
@@ -54,6 +57,7 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/site-enhancements.css">
 
   <style>
     /* ==================== */
@@ -126,7 +130,26 @@
       margin-bottom: 30px;
       line-height: 1.6;
     }
-    
+
+    .hero-eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 8px;
+    }
+
+    .hero-subtitle {
+      opacity: 0.9;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
     .btn-primary {
       background-color: #f8b739;
       border-color: #f8b739;
@@ -147,7 +170,7 @@
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
-    
+
     /* Mobile view for hero section */
     @media (max-width: 767.98px) {
       .hero-section {
@@ -179,6 +202,11 @@
         padding: 10px 25px;
         font-size: 1rem;
       }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
     }
     
     /* Tablet view for hero section */
@@ -609,7 +637,7 @@ body, html {
   .bg-top .text span {
     font-size: 14px; /* Reduce font size */
     line-height: 1.3; /* Adjust line height */
-    pading-top:10px;
+    padding-top:10px;
   }
   
   .bg-top .icon {
@@ -655,6 +683,89 @@ body, html {
     background-color: #f8f9fa;
     padding: 60px 0;
     text-align: center;
+  }
+
+  /* Modern feature cards on home hero */
+  .feature-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px 18px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    border: 1px solid rgba(15,43,70,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    height: 100%;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.12);
+    border-color: rgba(248,183,57,0.7);
+  }
+
+  .feature-card .icon-wrap {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(248,183,57,0.08);
+    color: #f8b739;
+    font-size: 32px;
+  }
+
+  .feature-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .feature-card p {
+    font-size: 0.95rem;
+    color: #5f6b7a;
+    margin-bottom: 0;
+  }
+
+  /* Home gallery thumbs */
+  .gallery-thumb {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .gallery-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .gallery-thumb:hover img {
+    transform: scale(1.07);
+  }
+
+  .gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 14px;
+    color: #fff;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .gallery-thumb:hover .gallery-overlay {
+    opacity: 1;
+  }
+
+  @media (max-width: 767.98px) {
+    .gallery-thumb {
+      height: 220px;
+    }
   }
   
   .admission-heading {
@@ -896,7 +1007,7 @@ body, html {
     <div class="container">
       <div class="row no-gutters d-flex align-items-center align-items-stretch">
         <div class="col-md-4 d-flex align-items-center py-4">
-          <img src="images/nag-logo.png" alt="" class="img-fluid" style="width: 80px; ">
+          <img src="images/nag-logo.png" alt="Nagashree English School logo" class="img-fluid" style="width: 80px; ">
           <a class="navbar-brand" href="index.html" style="font-size:18px;">Nagashree English School</a>
         </div>
         <div class="col-lg-8 d-block">
@@ -943,76 +1054,83 @@ body, html {
   <!-- Hero Section (replaced slider) -->
   <section class="hero-section">
     <div class="container">
-      <div class="hero-content">
+      <div class="hero-content" data-aos="fade-up">
+        <p class="hero-eyebrow">Best English Medium School in Channarayapatna</p>
         <h1 style="color: #e6a730;"><span>Welcome To</span>Nagashree English School</h1>
-        <p>Nagashree English School is an awesome place of leaning in many aspects. The beautiful, serene campus with state-of-the-art facilities, vast playgrounds, amazing Management and Staff, outstanding students and parents set it apart and it is indeed a wonderful place.</p>
-        <p><a href="contact.html" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+        <p class="hero-subtitle">Holistic education with certified teachers, modern facilities, and a caring, safe campus.</p>
+        <div class="hero-actions">
+          <a href="#admissions" class="btn btn-primary px-4 py-3 mt-3">Admissions 2025–26</a>
+          <a href="#section-counter" class="btn btn-outline-light px-4 py-3 mt-3">Explore Campus</a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Services Section -->
   <section class="ftco-services ftco-no-pb">
-    <div class="container-wrap">
-      <div class="row no-gutters">
-        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
-          <div class="media block-6 d-block text-center">
-            <div class="icon d-flex justify-content-center align-items-center">
+    <div class="container py-5">
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8 text-center">
+          <h2 class="mb-3">Why Choose Nagashree</h2>
+          <p class="text-muted">Strong academics, caring teachers, and a safe, modern campus for every child.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4 ftco-animate" data-aos="fade-up">
+          <div class="feature-card text-center">
+            <div class="icon-wrap">
               <span class="flaticon-teacher"></span>
             </div>
-            <div class="media-body p-2 mt-3">
-              <h3 class="heading">Certified Teachers</h3>
-              <p>Certified teachers are educators who have completed required training, passed licensing exams, and met official standards set by an education authority. Their certification ensures they are qualified to teach specific subjects or grade levels and meet professional and legal teaching requirements.</p>
-            </div>
-          </div>      
+            <h3>Certified Teachers</h3>
+            <p>Experienced, certified faculty focused on concept clarity and individual attention.</p>
+          </div>
         </div>
-        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
-          <div class="media block-6 d-block text-center">
-            <div class="icon d-flex justify-content-center align-items-center">
+        <div class="col-md-3 col-sm-6 mb-4 ftco-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-card text-center">
+            <div class="icon-wrap">
               <span class="flaticon-reading"></span>
             </div>
-            <div class="media-body p-2 mt-3">
-              <h3 class="heading">Special Education</h3>
-              <p>Special education focuses on teaching students with learning, physical, emotional, or developmental disabilities. It provides individualized instruction and support to help each student succeed academically and socially..</p>
-            </div>
-          </div>    
+            <h3>Special Education</h3>
+            <p>Support for diverse learning needs through personalized guidance and care.</p>
+          </div>
         </div>
-        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
-          <div class="media block-6 d-block text-center">
-            <div class="icon d-flex justify-content-center align-items-center">
+        <div class="col-md-3 col-sm-6 mb-4 ftco-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card text-center">
+            <div class="icon-wrap">
               <span class="flaticon-books"></span>
             </div>
-            <div class="media-body p-2 mt-3">
-              <h3 class="heading">Book &amp; Library</h3>
-              <p>Books are a valuable source of knowledge and entertainment for readers of all ages.Libraries store and organize books and other resources for easy access.They promote reading, research, and lifelong learning in the community..</p>
-            </div>
-          </div>      
+            <h3>Library &amp; Labs</h3>
+            <p>Well-equipped library and labs that make learning hands-on and engaging.</p>
+          </div>
         </div>
-        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
-          <div class="media block-6 d-block text-center">
-            <div class="icon d-flex justify-content-center align-items-center">
+        <div class="col-md-3 col-sm-6 mb-4 ftco-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card text-center">
+            <div class="icon-wrap">
               <span class="flaticon-diploma"></span>
             </div>
-            <div class="media-body p-2 mt-3">
-              <h3 class="heading">Sport Clubs</h3>
-              <p>Sports clubs provide opportunities for people to participate in organized sports activities.They help develop physical fitness, teamwork, and sportsmanship.Sports clubs also encourage social interaction and a healthy lifestyle.</p>
-            </div>
-          </div>      
+            <h3>Sports &amp; Activities</h3>
+            <p>A wide range of sports and co-curriculars to build confidence and teamwork.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- New Admission Section -->
-  <section class="admission-section">
+  <section class="admission-section" id="admissions">
     <div class="container">
       <h2 class="admission-heading">Admission Open for 2025-26</h2>
+      <p class="text-muted mb-3">Limited seats. Contact us to know more about eligibility, curriculum, and campus facilities.</p>
       <div class="poster-container">
         <div class="poster-item">
-          <img src="images/nag_page-0001.jpg" alt="Admission Poster 2025" class="img-fluid">
+          <img src="images/nag_page-0001.jpg" alt="Admission poster for 2025–26 (page 1)" class="img-fluid" loading="lazy" decoding="async">
         </div>
         <div class="poster-item">
-          <img src="images/nag_page-0002.jpg" alt="Admission Poster 2025" class="img-fluid">
+          <img src="images/nag_page-0002.jpg" alt="Admission poster for 2025–26 (page 2)" class="img-fluid" loading="lazy" decoding="async">
         </div>
+      </div>
+      <div class="mt-4">
+        <a href="contact.html" class="btn btn-primary px-4 py-2">Enquire Now</a>
       </div>
     </div>
   </section> 
@@ -1164,17 +1282,29 @@ body, html {
   <section class="ftco-gallery">
     <div class="container-fluid px-0">
       <div class="row no-gutters">
-        <div class="col-md-3 col-6 p-0 ftco-animate">
-          <img src="images/std4.JPG" class="img-fluid w-100" style="height: 300px; object-fit: cover;">
+        <div class="col-md-3 col-6 p-0 ftco-animate" data-aos="fade-up">
+          <div class="gallery-thumb">
+            <img src="images/std4.JPG" alt="Students activity photo 1" class="img-fluid w-100" loading="lazy" decoding="async">
+            <div class="gallery-overlay"><span>Joyful Learning</span></div>
+          </div>
         </div>
-        <div class="col-md-3 col-6 p-0 ftco-animate">
-          <img src="images/std3.JPG" class="img-fluid w-100" style="height: 300px; object-fit: cover;">
+        <div class="col-md-3 col-6 p-0 ftco-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="gallery-thumb">
+            <img src="images/std3.JPG" alt="Students activity photo 2" class="img-fluid w-100" loading="lazy" decoding="async">
+            <div class="gallery-overlay"><span>Classroom Engagement</span></div>
+          </div>
         </div>
-        <div class="col-md-3 col-6 p-0 ftco-animate">
-          <img src="images/std5.JPG" class="img-fluid w-100" style="height: 300px; object-fit: cover;">
+        <div class="col-md-3 col-6 p-0 ftco-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="gallery-thumb">
+            <img src="images/std5.JPG" alt="Students activity photo 3" class="img-fluid w-100" loading="lazy" decoding="async">
+            <div class="gallery-overlay"><span>Cultural Events</span></div>
+          </div>
         </div>
-        <div class="col-md-3 col-6 p-0 ftco-animate">
-          <img src="images/std6.JPG" class="img-fluid w-100" style="height: 300px; object-fit: cover;">
+        <div class="col-md-3 col-6 p-0 ftco-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="gallery-thumb">
+            <img src="images/std6.JPG" alt="Students activity photo 4" class="img-fluid w-100" loading="lazy" decoding="async">
+            <div class="gallery-overlay"><span>Sports &amp; Games</span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -1190,8 +1320,8 @@ body, html {
             <div class="block-23 mb-3">
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">Shravanabelagola Road, Near Vinayaka Gas Godown, Channarayapatna, Hassan - 573 116</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">Office : +91-9742278222 <br> Principal : +91-9241776070<br> Admin : +91-9901181966</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">nagashreeschoolcrp@gmail.com</span></a></li>
+                <li><a href="tel:+919742278222"><span class="icon icon-phone"></span><span class="text">Office : +91-9742278222 <br> Principal : +91-9241776070<br> Admin : +91-9901181966</span></a></li>
+                <li><a href="mailto:nagashreeschoolcrp@gmail.com"><span class="icon icon-envelope"></span><span class="text">nagashreeschoolcrp@gmail.com</span></a></li>
               </ul>
             </div>
           </div>
@@ -1212,9 +1342,9 @@ body, html {
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-              <li class="ftco-animate"><a href="http://www.youtube.com/@Nagashreeenglishschool"><span class="icon-youtube"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.facebook.com/share/17uc3LVVsT/?mibextid=wwXIfr"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.instagram.com/nagashree_english_school?igsh=eHhra3JqaTV5eWhq&utm_source=qr"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="http://www.youtube.com/@Nagashreeenglishschool" target="_blank" rel="noopener noreferrer" aria-label="Nagashree English School on YouTube"><span class="icon-youtube"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/share/17uc3LVVsT/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Nagashree English School on Facebook"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/nagashree_english_school?igsh=eHhra3JqaTV5eWhq&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Nagashree English School on Instagram"><span class="icon-instagram"></span></a></li>
             </ul>
           </div>
         </div>
@@ -1224,11 +1354,11 @@ body, html {
           <p>
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
             All rights reserved by 
-            <a href="https://nagashreeschoolcrp.in/" target="_blank">Nagashree English School</a>
+            <a href="https://nagashreeschoolcrp.in/" target="_blank" rel="noopener noreferrer">Nagashree English School</a>
           </p>
           <p>
             Designed and Developed by 
-            <a href="https://mitrasoftwares.in" target="_blank">mitrasoftwares.in</a>
+            <a href="https://mitrasoftwares.in" target="_blank" rel="noopener noreferrer">mitrasoftwares.in</a>
           </p>
         </div>
       </div>
@@ -1254,6 +1384,7 @@ body, html {
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/site-enhancements.js"></script>
   
   <script>
     // Remove owl carousel initialization since we're not using slider anymore
@@ -1296,6 +1427,20 @@ body, html {
           videoPlayer.style.display = 'none';
         });
       }
+    </script>
+    <script>
+      // Smooth scroll for on-page anchor links (hero buttons)
+      document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+        link.addEventListener('click', function (e) {
+          var target = document.querySelector(this.getAttribute('href'));
+          if (!target) return;
+          e.preventDefault();
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        });
+      });
     </script>
       <script type="application/ld+json">
 {
