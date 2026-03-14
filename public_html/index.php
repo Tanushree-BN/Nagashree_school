@@ -13,11 +13,16 @@ $activePage = 'home';
   <meta property="og:title" content="Nagashree English School">
   <meta property="og:description" content="The school which aims at producing confident leaders in many fields who will drive the country forward to greater prosperity.">
 
+<<<<<<< HEAD
   <!-- Tab icon / Title logo -->
   <link rel="icon" href="images/nag-logo.png" type="image/png">
   <link rel="shortcut icon" href="images/nag-logo.png" type="image/png">
   <link rel="apple-touch-icon" href="images/nag-logo.png">
   <meta name="theme-color" content="#0f2b46">
+=======
+  <!-- Favicon -->
+  <link rel="icon" href="images/nag-logo.png" type="image/png">
+>>>>>>> a889c630dc1062529c001e2c5a15e2174d831b25
   <!-- Replace your current meta tags with these optimized ones -->
   <meta name="description" content="Nagashree English School in Channarayapatna offers quality education with certified teachers, modern facilities, and a nurturing environment for holistic development.">
   <meta name="keywords" content="Nagashree English School, CBSE School Channarayapatna, Best School Hassan, English Medium School, School Admissions 2025, Quality Education Karnataka">
