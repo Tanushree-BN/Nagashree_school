@@ -19,10 +19,10 @@
           <h2 class="ftco-heading-2">Quick Links</h2>
           <ul class="list-unstyled">
             <li><a href="index.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-            <li><a href="about.php"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-            <li><a href="faculties.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Faculties</a></li>
-            <li><a href="facilities.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Facilities</a></li>
-            <li><a href="contact.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+            <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+            <li><a href="faculties.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Faculties</a></li>
+            <li><a href="facilities.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Facilities</a></li>
+            <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
           </ul>
         </div>
       </div>

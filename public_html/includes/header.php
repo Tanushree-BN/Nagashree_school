@@ -11,11 +11,11 @@ if (!isset($activePage)) {
 
 $nav = [
     'home' => ['label' => 'Home', 'href' => 'index.php'],
-    'about' => ['label' => 'About', 'href' => 'about.php'],
-    'gallery' => ['label' => 'Gallery', 'href' => 'gallery.php'],
-    'faculties' => ['label' => 'Faculties', 'href' => 'faculties.php'],
-    'facilities' => ['label' => 'Facilities', 'href' => 'facilities.php'],
-    'contact' => ['label' => 'Contact', 'href' => 'contact.php'],
+    'about' => ['label' => 'About', 'href' => 'about.html'],
+    'gallery' => ['label' => 'Gallery', 'href' => 'gallery.html'],
+    'faculties' => ['label' => 'Faculties', 'href' => 'faculties.html'],
+    'facilities' => ['label' => 'Facilities', 'href' => 'facilities.html'],
+    'contact' => ['label' => 'Contact', 'href' => 'contact.html'],
 ];
 
 function navItemClass(string $activePage, string $key): string

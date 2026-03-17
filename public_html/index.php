@@ -13,16 +13,11 @@ $activePage = 'home';
   <meta property="og:title" content="Nagashree English School">
   <meta property="og:description" content="The school which aims at producing confident leaders in many fields who will drive the country forward to greater prosperity.">
 
-<<<<<<< HEAD
-  <!-- Tab icon / Title logo -->
+  <!-- Favicon -->
   <link rel="icon" href="images/nag-logo.png" type="image/png">
   <link rel="shortcut icon" href="images/nag-logo.png" type="image/png">
   <link rel="apple-touch-icon" href="images/nag-logo.png">
   <meta name="theme-color" content="#0f2b46">
-=======
-  <!-- Favicon -->
-  <link rel="icon" href="images/nag-logo.png" type="image/png">
->>>>>>> a889c630dc1062529c001e2c5a15e2174d831b25
   <!-- Replace your current meta tags with these optimized ones -->
   <meta name="description" content="Nagashree English School in Channarayapatna offers quality education with certified teachers, modern facilities, and a nurturing environment for holistic development.">
   <meta name="keywords" content="Nagashree English School, CBSE School Channarayapatna, Best School Hassan, English Medium School, School Admissions 2025, Quality Education Karnataka">
@@ -1037,7 +1032,9 @@ $activePage = 'home';
         </div>
         <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
           <h2 class="mb-4">What We Offer</h2>
-          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
+          <h3 class="mb-3">Quality Education &amp; Holistic Growth</h3>
+          <p>Quality education focuses on developing students academically, socially, and emotionally. It provides a supportive learning environment where students gain knowledge, build skills, and grow with confidence.</p>
+          <p>Holistic growth ensures that students develop creativity, critical thinking, discipline, and strong values that prepare them for future challenges.</p>
           <div class="row mt-5">
             <div class="col-lg-6">
               <div class="services-2 d-flex">
@@ -1280,7 +1277,7 @@ $activePage = 'home';
         "postalCode": "573116",
         "addressCountry": "India"
       },
-      "telephone": "+919740078222",
+      "telephone": "+919742278222",
       "email": "nagashreeschoolcrp@gmail.com",
       "description": "Nagashree English School is a premier educational institution in Channarayapatna offering quality English medium education with modern facilities and experienced teachers.",
       "foundingDate": "2010",
